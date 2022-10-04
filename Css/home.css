@@ -1,0 +1,41 @@
+.logo {
+  width: 5%;
+  height: 5%;
+  margin-right: 40px;
+}
+.menu {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  text-transform: uppercase;
+}
+.menu ul {
+  display: flex;
+  padding: 40px;
+  gap: 40px;
+}
+.menu a {
+  background: #2da8dd;
+  padding: 15px;
+  border-radius: 15px;
+  text-transform: uppercase;
+  color: white;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+}
+.menu li span {
+  font-weight: bold;
+  color: #2da8dd;
+}
+.menu-tel {
+  display: flex;
+  align-items: center;
+}
+.menu-tel img {
+  width: 28px;
+  height: 28px;
+  margin-right: 10px;
+}
