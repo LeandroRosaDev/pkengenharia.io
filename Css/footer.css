@@ -1,6 +1,7 @@
-.footer-bg div {
+.footer-bg {
   padding-top: 50px;
   padding-bottom: 50px;
+  background-color: #1a476d;
 }
 .footer-contato {
   display: flex;
@@ -12,12 +13,9 @@
 .footer-contato img {
   margin: 5px;
 }
-.footer-contato li a {
+.footer-contato a {
   color: white;
   font-weight: 500;
-}
-.footer-bg {
-  background-color: #1a476d;
 }
 .footer-copy {
   background-color: #153957;

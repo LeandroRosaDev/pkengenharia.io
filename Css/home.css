@@ -19,16 +19,12 @@
 .menu a {
   background: #2da8dd;
   padding: 15px;
-  border-radius: 15px;
+  border-radius: 25px;
   text-transform: uppercase;
   color: white;
   font-weight: bold;
   display: flex;
   align-items: center;
-}
-.menu li span {
-  font-weight: bold;
-  color: #2da8dd;
 }
 .menu-tel {
   display: flex;
