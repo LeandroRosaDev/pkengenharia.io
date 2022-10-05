@@ -10,13 +10,22 @@
   align-items: center;
   gap: 50px;
   text-transform: uppercase;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  background: #ffffff;
 }
-.menu ul {
+.nav-primaria {
   display: flex;
   padding: 40px;
   gap: 40px;
 }
-.menu a {
+.nav-primaria li{
+  padding: 10px; 
+}
+
+.orçamento {
   background: #2da8dd;
   padding: 15px;
   border-radius: 15px;
@@ -39,4 +48,28 @@
   height: 24px;
   margin-right: 10px;
   color: #2da8dd;
+}
+/*sub-menu*/
+
+.nav-secundaria {
+  display: none;
+  position: absolute;
+  color: white;  
+}
+.menu ul li:hover ul{
+  display: block;
+  background-color: #2da8dd;
+  margin-top: 10px;
+  border-radius: 4px;
+  padding: 15px;
+  transition: .8s;
+}
+.nav-secundaria li:hover{
+  background-color:#49bef0 ;
+  transition: background .6s;
+  border-radius: 4px;
+}
+.nav-secundaria a{
+  color: #ffffff;
+  font-weight: bold;
 }
