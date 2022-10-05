@@ -1,2 +1,8 @@
+/*Reset*/
 @import "./resetegeral.css";
+
+/*Home/Menu*/
 @import "./home.css";
+
+/*footer*/
+@import "./footer.css";
