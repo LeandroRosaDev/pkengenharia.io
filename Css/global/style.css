@@ -1,0 +1,11 @@
+/*Global/resetgeral*/
+@import "./resetegeral.css";
+
+/*Home/Menu*/
+@import "../home.css";
+
+/*footer*/
+@import "../footer.css";
+
+/*Tipografia*/
+@import "../utilidades/tipografia.css";
