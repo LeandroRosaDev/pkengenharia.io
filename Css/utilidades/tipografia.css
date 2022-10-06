@@ -10,6 +10,9 @@
 .font-r-600 {
   font: 600 2.75rem/1 "Roboto", san-serif;
 }
+.font-r-700 {
+  font: 700 1.1rem/1 "Roboto", san-serif;
+}
 .font-rs-400 {
   font: 400 1rem/1 "Roboto Slab", san-serif;
 }
