@@ -1,18 +1,31 @@
-.font-r-500 {
-  font: 500 1rem/1.35 "Roboto", san-serif;
+.font-r-300 {
+  font: 300 1.06rem/1 "Roboto", san-serif;
 }
-.font-rs-400 {
-  font: 400 1.125rem/1.35 "Roboto", san-serif;
+.font-r-400 {
+  font: 400 1rem/1 "Roboto", san-serif;
+}
+.font-r-500 {
+  font: 500 1rem/1 "Roboto", san-serif;
 }
 .font-r-600 {
-  font: 600 1.125rem/1.35 "Roboto", san-serif;
-}
-.font-rs-600 {
-  font: 600 1.125rem/1.35 "Roboto Slab", san-serif;
+  font: 600 2.75rem/1 "Roboto", san-serif;
 }
 .font-rs-400 {
-  font: 400 1.125rem/1.35 "Roboto Slab", san-serif;
+  font: 400 1rem/1 "Roboto Slab", san-serif;
 }
 .font-rs-500 {
-  font: 500 1.125rem/1.35 "Roboto Slab", san-serif;
+  font: 500 1rem/1 "Roboto Slab", san-serif;
+}
+.font-rs-600 {
+  font: 600 1rem/1 "Roboto Slab", san-serif;
+}
+/* Cores */
+.cor-0 {
+  color: #ffffff;
+}
+.cor-1 {
+  color: #1f2637;
+}
+.cor-2 {
+  color: #606062;
 }

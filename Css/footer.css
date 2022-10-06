@@ -10,9 +10,6 @@
   gap: 40px;
   align-items: center;
 }
-.footer-contato img {
-  margin: 5px;
-}
 .footer-contato a {
   color: white;
   font-weight: 500;
@@ -25,14 +22,17 @@
 .icone-gps::before {
   content: url("/pkengenharia.io/Imagens/icones/GPS.svg");
   margin-right: 10px;
+  float: left;
 }
 .icone-tel::before {
   content: url("/pkengenharia.io/Imagens/icones/telefone.svg");
   margin-right: 10px;
+  float: left;
 }
 .icone-email::before {
   content: url("/pkengenharia.io/Imagens/icones/email.svg");
   margin-right: 10px;
+  float: left;
 }
 .footer-copy p {
   color: #ffffff5e;

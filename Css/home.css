@@ -1,3 +1,4 @@
+/* Menu */
 .logo {
   width: 5%;
   height: 5%;
@@ -21,14 +22,14 @@
   padding: 40px;
   gap: 40px;
 }
-.nav-primaria li{
-  padding: 10px; 
+.nav-primaria li {
+  padding: 10px;
 }
 
 .orçamento {
   background: #2da8dd;
   padding: 15px;
-  border-radius: 25px;
+  border-radius: 15px;
   text-transform: uppercase;
   color: white;
   font-weight: bold;
@@ -45,27 +46,72 @@
   margin-right: 10px;
   color: #2da8dd;
 }
+.nav-primaria span {
+  color: #2da8dd;
+}
+
 /*sub-menu*/
 
 .nav-secundaria {
   display: none;
   position: absolute;
-  color: white;  
+  color: white;
 }
-.menu ul li:hover ul{
+.menu ul li:hover ul {
   display: block;
   background-color: #2da8dd;
   margin-top: 10px;
   border-radius: 4px;
   padding: 15px;
-  transition: .8s;
+  transition: 0.8s;
 }
-.nav-secundaria li:hover{
-  background-color:#49bef0 ;
-  transition: background .6s;
+.nav-secundaria li:hover {
+  background-color: #49bef0;
+  transition: background 0.6s;
   border-radius: 4px;
 }
-.nav-secundaria a{
+.nav-secundaria a {
   color: #ffffff;
   font-weight: bold;
+}
+.content {
+  margin-top: 220px;
+}
+
+/* conteudo */
+
+.container-home {
+  background-image: url("../Imagens/Logo/banner-1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: block;
+  height: 600px;
+  min-width: 100%;
+  min-height: 100%;
+}
+.text-banner {
+  text-align: center;
+  padding-top: 240px;
+  background-color: rgba(11, 29, 54, 0.75);
+  height: 60%;
+  background-size: cover;
+}
+.text-banner p {
+  margin-bottom: 30px;
+}
+.botao-home {
+  display: inline-block;
+  border: 2px solid #ffffff;
+  box-sizing: border-box;
+  border-radius: 20px;
+  padding: 15px 30px;
+  text-align: center;
+  cursor: pointer;
+}
+.botao-home a {
+  color: #ffffff;
+}
+.img-home {
+  width: 120px;
+  height: 120px;
 }
