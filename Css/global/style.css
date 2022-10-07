@@ -7,8 +7,9 @@
 /*footer*/
 @import "../footer.css";
 
-/*Tipografia*/
+/*Tipografia / Cores*/
 @import "../utilidades/tipografia.css";
+@import "../utilidades/cores.css";
 
 /* Contato */
 @import "../contato.css";

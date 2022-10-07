@@ -1,34 +1,37 @@
-.font-r-300 {
-  font: 300 1.06rem/1 "Roboto", san-serif;
+.font-ri-400 {
+  font: 400 1rem/1 "Roboto", san-serif;
+  font-style: italic;
 }
 .font-r-400 {
   font: 400 1rem/1 "Roboto", san-serif;
 }
-.font-r-500 {
-  font: 500 1rem/1 "Roboto", san-serif;
+.font-r-1-700 {
+  font: 700 1rem/1 "Roboto", san-serif;
 }
-.font-r-600 {
-  font: 600 2.75rem/1 "Roboto", san-serif;
+.font-r-2-700 {
+  font: 700 2.25rem/1 "Roboto", san-serif;
 }
-.font-r-700 {
-  font: 700 1.1rem/1 "Roboto", san-serif;
+.font-r-1-800 {
+  font: 800 1rem/1 "Roboto", san-serif;
 }
-.font-rs-400 {
-  font: 400 1rem/1 "Roboto Slab", san-serif;
+.font-r-2-800 {
+  font: 800 2.75rem/1 "Roboto", san-serif;
 }
-.font-rs-500 {
-  font: 500 1rem/1 "Roboto Slab", san-serif;
+.font-b-1-400 {
+  font: 400 1rem/1 "Barlow", san-serif;
 }
-.font-rs-600 {
-  font: 600 1rem/1 "Roboto Slab", san-serif;
+.font-b-2-400 {
+  font: 400 2.25rem/1 "Barlow", san-serif;
 }
-/* Cores */
-.cor-0 {
-  color: #ffffff;
+.font-b-1-700 {
+  font: 700 1.8rem/1 "Barlow", san-serif;
 }
-.cor-1 {
-  color: #1f2637;
+.font-b-2-700 {
+  font: 700 2.25rem/1 "Barlow", san-serif;
 }
-.cor-2 {
-  color: #606062;
+.font-b-3-700 {
+  font: 700 3.12rem/1 "Barlow", san-serif;
+}
+.font-n-400 {
+  font: 400 1rem/1 "Nunito", san-serif;
 }
