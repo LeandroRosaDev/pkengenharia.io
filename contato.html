@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Contato - Pk Engenharia</title>
+  <title>Contato - PK Engenharia</title>
   <link rel="stylesheet" href="./Css/global/style.css">
 </head>
 
@@ -37,12 +37,11 @@
 
   <section class="contato-bg">
     <h1 class="contato-detalhe">Contato</h1>
-    <img src="./Imagens/logo/contato-banner.jpg" alt="/">
   </section>
-
-  <main>
-    <section class="contato-formulario">
-      <form action="form" action="./contato.html">
+  <div class="form-bg">
+    <span class="descricao-contato">Precisa de ajuda para o seu projeto de climatização? Preencha o formulário abaixo que em breve entraremos em contato!</span>
+    <form action="./contato.html">
+      <div class="form">
         <div>
           <label for="nome"></label>
           <input type="text" id="nome" name="nome" placeholder="Nome">
@@ -61,12 +60,12 @@
         </div>
         <div>
           <label for="mensagem"></label>
-          <textarea rows="10" id="mensagem" name="mensagem" placeholder="Mensagem"></textarea>
+          <textarea rows="5" id="mensagem" name="mensagem" placeholder="Mensagem"></textarea>
         </div>
-        <button>Enviar</button>
-      </form>
-    </section>
-  </main>
+      </div>
+      <button class="botao"><Span>Enviar</Span></button>
+    </form>
+  </div>
 
   <footer class="footer-bg">
     <div>

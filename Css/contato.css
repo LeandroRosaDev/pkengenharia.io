@@ -1,12 +1,19 @@
-/* .contato-bg { 
-  text-transform: uppercase;
+.contato-bg {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-top: 130px;
   background-image: url("../Imagens/logo/contato-banner.jpg");
-  width: 100%;
+  background-size: contain;
+  background-repeat: no-repeat;
   height: 400px;
-  background-size: 100% 100%;
-} */
-.contato-bg h1 {
-  position: absolute;
+  width: 100vw;
+}
+
+.contato-detalhe {
+  background-color: #1f2637;
+  grid-column: 2;
+  place-self: center;
+  text-transform: uppercase;
   font-weight: bold;
   font-size: 2.5rem;
   color: white;
@@ -17,12 +24,67 @@
   max-width: 100%;
 }
 
-button {
-  background: #2da8dd;
-  padding: 20px 50px;
-  border-radius: 15px;
+.form {
+  display: grid;
+  grid-template-columns: 400px 400px;
+  justify-content: center;
+  margin-top: 50px;
+  gap: 5px;
+}
+
+.botao {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  width: 800px;
+  justify-content: center;
+  padding: 15px;
   border: none;
+  margin-bottom: 50px;
+  background: #2da8dd;
+  border-radius: 20px;
+}
+
+.botao span {
   text-transform: uppercase;
-  color: white;
+  color: #ffffff;
   font-weight: bold;
+  font-size: 1.125rem;
+}
+
+.botao:hover {
+  width: 870px;
+  transition: width 0.3s;
+}
+
+.form input[type="text"],
+.form input[type="email"],
+.form textarea {
+  font: 400 1rem/1.5 "Roboto", sans-serif;
+  background: #f2f3f4;
+  border: 0px solid #e5e5e5;
+  border-radius: 10px;
+  padding: 10px;
+  padding-right: 200px;
+}
+
+.form input[type="text"]:focus,
+.form input[type="email"]:focus,
+.form textarea:focus {
+  outline: none;
+  border: 1px solid #e5e5e5;
+}
+
+.form textarea {
+  padding-right: 610px;
+}
+
+.descricao-contato {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  color: #1f2637;
+  font-family: "Barlow", Sans-serif;
+  font-size: 16px;
+  line-height: 32px;
 }
