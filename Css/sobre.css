@@ -1,0 +1,15 @@
+.banner-sobre {
+  margin-top: 180px;
+}
+.conteudo-principal{
+  margin-top: 40px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.conteudo-principal h1,h2,h3,h4,div {
+  grid-column: 2;
+}
+.conteudo-principal h1{
+  font-size: 32px;
+  margin-bottom: 10px;
+}
