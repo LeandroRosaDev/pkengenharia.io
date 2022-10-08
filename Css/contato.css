@@ -14,13 +14,14 @@
 
 .banner-contato img {
   position: relative;
+  display: flex;
   margin-top: 150px;
   width: 100%;
 }
 
 .banner-detalhe {
   position: absolute;
-  top: 50%;
+  top: 35%;
   left: 50%;
   transition: translate(-50%, -50%);
   text-align: center;
