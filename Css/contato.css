@@ -13,19 +13,18 @@
 }
 
 .banner-contato img {
-  position: relative;
+  /* filter: brightness(45%);  */
   margin-top: 150px;
   width: 100%;
 }
 
 .banner-detalhe {
   position: absolute;
-  top: 50%;
+  top: 35%;
   left: 50%;
-  transition: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
   text-align: center;
   background-color: rgba(0, 0, 0, 0.5);
-  /* padding: 20px; */
   color: #ffffff;
 }
 
