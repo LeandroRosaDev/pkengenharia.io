@@ -30,8 +30,6 @@
   padding: 15px;
   border-radius: 15px;
   text-transform: uppercase;
-  color: white;
-  font-weight: bold;
   display: flex;
   align-items: center;
 }
@@ -85,19 +83,16 @@
 .container-home {
   background-image: url("../Imagens/Logo/banner-1.jpg");
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 100%;
   display: block;
   height: 600px;
-  min-width: 100%;
-  min-height: 100%;
   margin-top: 130px;
 }
 .text-banner {
+  background-color: rgba(11, 29, 54, 0.75);
+  height: 59%;
   text-align: center;
   padding-top: 240px;
-  background-color: rgba(11, 29, 54, 0.75);
-  height: 60%;
-  background-size: cover;
 }
 .text-banner p {
   margin-bottom: 30px;
@@ -111,10 +106,41 @@
   text-align: center;
   cursor: pointer;
 }
-.botao-home a {
-  color: #ffffff;
+/* Abaixo do banner */
+.baixo-banner {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 40px;
+  padding: 60px 0px;
+  align-items: center;
 }
-
+.baixo-banner img {
+  grid-column: 2;
+  max-width: 500px;
+}
+.text-home {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  text-align: start;
+  margin: 20px 0;
+  grid-column: 3;
+}
+.text-home p {
+  line-height: 28px;
+  padding: 10px;
+}
+.text-home > a {
+  max-width: 130px;
+  max-height: 40px;
+  font-weight: bold;
+  justify-content: center;
+  border-radius: 20px;
+}
+.text-home h1 {
+  margin-bottom: 40px;
+  margin-left: 10px;
+}
 /* Soluções Home */
 .container-solucao {
   display: flex;

@@ -13,7 +13,8 @@
 }
 
 .banner-contato img {
-  /* filter: brightness(45%);  */
+  position: relative;
+  display: flex;
   margin-top: 150px;
   width: 100%;
 }
