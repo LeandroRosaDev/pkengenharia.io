@@ -89,4 +89,5 @@ video {
   text-decoration: none;
   color: black;
   list-style: none;
+  max-width: 100%;
 }
