@@ -1,65 +1,59 @@
-.contato-bg {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  margin-top: 130px;
+/* .banner-contato {
+  display: flex;
   background-image: url("../Imagens/logo/contato-banner.jpg");
-  background-size: contain;
-  background-repeat: no-repeat;
+  filter: brightness(45%);
+  position: relative;
+  max-width: 100%;
+  margin-top: 150px;
   height: 400px;
-  width: 100vw;
-}
+} */
 
-.contato-detalhe {
-  background-color: #1f2637;
-  grid-column: 2;
-  place-self: center;
-  text-transform: uppercase;
-  font-weight: bold;
-  font-size: 2.5rem;
-  color: white;
-}
-
-.contato-bg img {
-  margin-top: 20px;
+.banner-contato {
   max-width: 100%;
 }
 
-.form {
-  display: grid;
-  grid-template-columns: 400px 400px;
+.banner-contato img {
+  position: relative;
+  margin-top: 150px;
+  width: 100%;
+}
+
+.banner-detalhe {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transition: translate(-50%, -50%);
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  /* padding: 20px; */
+  color: #ffffff;
+}
+
+/* Formulario */
+
+.descricao-contato {
+  display: flex;
   justify-content: center;
+  margin-top: 80px;
+  color: #1f2637;
+  font-family: "Barlow", Sans-serif;
+  font-size: 16px;
+  line-height: 32px;
+}
+
+.form-contato {
+  display: flex;
+  flex-wrap: wrap;
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
   margin-top: 50px;
   gap: 5px;
 }
 
-.botao {
-  display: flex;
-  margin-left: auto;
-  margin-right: auto;
-  width: 800px;
-  justify-content: center;
-  padding: 15px;
-  border: none;
-  margin-bottom: 50px;
-  background: #2da8dd;
-  border-radius: 20px;
-}
-
-.botao span {
-  text-transform: uppercase;
-  color: #ffffff;
-  font-weight: bold;
-  font-size: 1.125rem;
-}
-
-.botao:hover {
-  width: 870px;
-  transition: width 0.3s;
-}
-
-.form input[type="text"],
-.form input[type="email"],
-.form textarea {
+.form-contato input[type="text"],
+.form-contato input[type="email"],
+.form-contato textarea {
   font: 400 1rem/1.5 "Roboto", sans-serif;
   background: #f2f3f4;
   border: 0px solid #e5e5e5;
@@ -68,23 +62,32 @@
   padding-right: 200px;
 }
 
-.form input[type="text"]:focus,
-.form input[type="email"]:focus,
-.form textarea:focus {
+.form-contato input[type="text"]:focus,
+.form-contato input[type="email"]:focus,
+.form-contato textarea:focus {
   outline: none;
   border: 1px solid #e5e5e5;
 }
 
-.form textarea {
-  padding-right: 610px;
+.form-contato textarea {
+  padding-right: 605px;
 }
 
-.descricao-contato {
+.botao-contato {
   display: flex;
+  width: 800px;
   justify-content: center;
-  margin-top: 50px;
-  color: #1f2637;
-  font-family: "Barlow", Sans-serif;
-  font-size: 16px;
-  line-height: 32px;
+  padding: 15px;
+  border: none;
+  margin: 10px auto 50px auto;
+  background: #2da8dd;
+  border-radius: 20px;
+  text-transform: uppercase;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 1.125rem;
+}
+.botao-contato:hover {
+  transform: scale(1.07);
+  transition: all 0.3s;
 }
