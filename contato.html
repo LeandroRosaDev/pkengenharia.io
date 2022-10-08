@@ -13,69 +13,70 @@
   <header class="menu">
     <img class="logo" src="./Imagens/Logo/Color.png" alt="">
     <nav>
-      <ul class="nav-primaria">
+      <ul class="nav-primaria font-r-1-700">
         <li><a href="/"><span>Home</span></a></li>
         </li>
-        <li><a href="/">Serviços</a>
+        <li><a class="cor-6" href="/">Serviços</a>
           <ul class="nav-secundaria">
             <li><a href="/">Energia Solar</a></li>
             <li><a href="/">Instalações elétricas</a></li>
             <li><a href="/">Climatização</a></li>
           </ul>
         </li>
-        <li><a href="/">PK Engenharia</a>
+        <li><a class="cor-6" href="/">PK Engenharia</a>
         </li>
-        <li><a href="/">Contato</a></li>
+        <li><a class="cor-6" href="./contato.html">Contato</a></li>
       </ul>
     </nav>
     <div class="menu-tel font-r-500">
       <img src="./Imagens/icones/telefone.svg" alt="">
-      <span>(21) 9999-999</span>
+      <span class="cor-3 font-r-1-800">(21) 9999-999</span>
     </div>
-    <a class="orçamento" href="./">Solicite um Orçamento</a>
+    <a class="orçamento font-r-1-700" href="./">Solicite um Orçamento</a>
   </header>
 
-  <section class="contato-bg">
-    <h1 class="contato-detalhe">Contato</h1>
+  <section class="banner-contato">
+    <img src="./Imagens/logo/contato-banner.jpg" alt="">
+    <p class="banner-detalhe">CONTATO</p>
   </section>
-  <div class="form-bg">
-    <span class="descricao-contato">Precisa de ajuda para o seu projeto de climatização? Preencha o formulário abaixo que em breve entraremos em contato!</span>
-    <form action="./contato.html">
-      <div class="form">
-        <div>
+
+  <section>
+    <span class="descricao-contato font-b-1-400">Precisa de ajuda para o seu projeto de climatização? Preencha o formulário abaixo que em breve entraremos em contato!</span>
+    <div class="form-contato">
+      <div>
+        <form action="./contato.html">
           <label for="nome"></label>
           <input type="text" id="nome" name="nome" placeholder="Nome">
-        </div>
-        <div>
-          <label for="telefone"></label>
-          <input type="email" id="email" name="email" placeholder="E-mail">
-        </div>
-        <div>
-          <label for="telefone"></label>
-          <input type="text" id="telefone" name="telefone" placeholder="Telefone">
-        </div>
-        <div>
-          <label for="assusto"></label>
-          <input type="text" id="assunto" name="assunto" placeholder="Assunto">
-        </div>
-        <div>
-          <label for="mensagem"></label>
-          <textarea rows="5" id="mensagem" name="mensagem" placeholder="Mensagem"></textarea>
-        </div>
       </div>
-      <button class="botao"><Span>Enviar</Span></button>
-    </form>
-  </div>
+      <div>
+        <label for="telefone"></label>
+        <input type="email" id="email" name="email" placeholder="E-mail">
+      </div>
+      <div>
+        <label for="telefone"></label>
+        <input type="text" id="telefone" name="telefone" placeholder="Telefone">
+      </div>
+      <div>
+        <label for="assunto"></label>
+        <input type="text" id="assunto" name="assunto" placeholder="Assunto">
+      </div>
+      <div>
+        <label for="mensagem"></label>
+        <textarea rows="5" id="mensagem" name="mensagem" placeholder="Mensagem"></textarea>
+      </div>
+      </form>
+    </div>
+    <button class="botao-contato">Enviar</button>
+  </section>
 
   <footer class="footer-bg">
-    <div>
-      <ul class="footer-contato">
-        <li class="icone-gps"><a href="googlemaps.com">Av. Brasil, 31.904. Bangu, Rio de Janeiro - RJ.</a></li>
-        <li class="icone-tel"><a href="tel:+552199999999">+55 21 9999-99999</a></li>
-        <li class="icone-email"><a href="mailto:contato@pkengenharia.com">contato@pkengenharia.com</a></li>
-        <li><img src="./Imagens/icones/facebook-logotype.svg" alt="Facebook"><img src="./Imagens/icones/instagram-logotype.svg" alt="Instagram"></li>
-      </ul>
-    </div>
+    <ul class="footer-contato font-b-1-400 cor-0">
+      <li class="icone-gps"><a href="./">Av. Brasil, 31.904. Bangu, Rio de Janeiro - RJ.</a></li>
+      <li class="icone-tel"><a href="./">+55 21 9999-99999</a></li>
+      <li class="icone-email"><a href="mailto:contato@pkengenharia.com">contato@pkengenharia.com</a></li>
+      <li><a href=""><img src="./Imagens/icones/facebook-logotype.svg" alt="Facebook"></a></li>
+      <li><a href=""><img src="./Imagens/icones/instagram-logotype.svg" alt="Instagram"></a></li>
+    </ul>
   </footer>
   <div class="footer-copy">
     <p>© 2022 - COLDRIO CLIMATIZAÇÃO. TODOS OS DIREITOS RESERVADOS.</p>

@@ -1,0 +1,24 @@
+/* .banner {
+  display: flex;
+  margin-top: 130px;
+  max-width: 100%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 400px;
+} */
+
+.botao {
+  padding: 15px;
+  border: none;
+  background: #2da8dd;
+  border-radius: 20px;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 1.125rem;
+  cursor: pointer;
+}
+
+.botao:hover {
+  transform: scale(1.07);
+  transition: all 0.3s;
+}

@@ -16,3 +16,6 @@
 
 /* Sobre */
 @import "../sobre.css";
+
+/* Utilidades */
+@import "../utilidades/utilidades.css";
