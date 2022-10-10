@@ -1,7 +1,52 @@
-.conteudo-principal-sobre {
-  margin-top: 30px;
-}
 .banner-sobre {
   max-width: 100%;
   margin-top: 200px;
 }
+.conteudo-principal-sobre {
+  margin-top: 60px;
+  display: grid;
+  grid-template-columns: auto 1100px auto;
+  margin-left: 20px;
+}
+.conteúdo-sobre{
+  grid-column: 2;
+  margin-bottom: 20px;
+}
+.conteúdo-sobre h1, h2, h3, h4 {
+  margin-bottom: 30px;
+}
+.conteúdo-sobre h2{
+  line-height: 2;
+  font-size: 18px;
+}
+.conteúdo-sobre h3{
+  line-height: 2;
+  font-size: 18px;
+}
+.conteúdo-sobre h4{
+  line-height: 2;
+  font-size: 18px;
+}
+
+.icones-sobre {
+  grid-column: 2;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  flex-direction: row;
+  margin-bottom: 60px;
+}
+.icones-sobre img{
+  border-radius: 10px;
+}
+.marcas-sobre {
+  display: grid;
+  grid-template-columns: auto 1100px auto;
+  margin-left: 20px;
+}
+.marcas-sobre h2, img {
+  grid-column: 2;
+  margin-bottom: 60px;
+  font: 700 1.5rem/1.30 "Barlow"
+}
+
