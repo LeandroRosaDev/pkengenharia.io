@@ -1,23 +1,44 @@
 .banner-servicos {
-  background: url("../Imagens/img/banner-servicos.jpg") no-repeat;
+  margin-top: 120px;
+  filter: brightness(35%);
+  background: url(../Imagens/img/banner-servicos.jpg) no-repeat;
   background-size: cover;
   width: 100%;
   height: 450px;
-  margin-top: 140px;
+  z-index: 0;
 }
+.content-banner-servicos {
+  height: 450px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  z-index: 1;
+}
+.texto-banner-servicos {
+  color: #ffffff;
+  font-size: 64px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+/* Conteudo */
 
 .conteiner-servicos {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  align-content: center;
 }
 
 .descricao-servicos {
   display: grid;
+  align-content: center;
   width: 510px;
   padding: 40px;
   text-align: left;
   margin-left: auto;
-  gap: 5%;
+  gap: 3%;
   align-content: center;
 }
 
@@ -29,6 +50,7 @@
 
 .descricao-servicos p {
   font-family: "Roboto", sans-serif;
+  align-content: center;
   font-size: 18px;
   font-weight: 400;
   line-height: 32px;
@@ -37,4 +59,51 @@
 .img-servicos {
   width: 510px;
   margin: 10% 5%;
+}
+
+.conteiner-servicos-2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-content: center;
+  background: #f2f3f4;
+}
+
+.descricao-servicos-2 {
+  display: grid;
+  width: 510px;
+  padding: 50px;
+  text-align: left;
+  margin-left: right;
+  gap: 3%;
+  align-content: center;
+}
+
+.descricao-servicos-2 h1 {
+  font-family: "Barlow", sans-serif;
+  font-size: 2.25rem;
+  font-weight: bold;
+}
+
+.descricao-servicos-2 p {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 32px;
+}
+
+.img-servicos-2 {
+  width: 510px;
+  margin: 10% 5%;
+  grid-area: 1 / 1;
+  margin-left: auto;
+}
+
+.lista-servicos li {
+  font-family: "Roboto", sans-serif;
+  list-style-type: initial;
+  margin-left: 10%;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 32px;
+  color: var(--cor-v3);
 }
