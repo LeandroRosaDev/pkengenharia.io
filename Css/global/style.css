@@ -19,3 +19,9 @@
 
 /* Utilidades */
 @import "../utilidades/utilidades.css";
+
+/* Orçamento */
+@import "../orcamento.css";
+
+/* Serviços */
+@import "../servicos.css";
