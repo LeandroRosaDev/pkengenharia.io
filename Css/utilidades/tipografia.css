@@ -5,8 +5,11 @@
 .font-r-400 {
   font: 400 1rem/1 "Roboto", san-serif;
 }
-.font-r-1-700 {
+.font-r-12-700 {
   font: 700 1.2rem/1 "Roboto", san-serif;
+}
+.font-r-1-700 {
+  font: 700 1rem/1 "Roboto", san-serif;
 }
 .font-r-2-700 {
   font: 700 2.25rem/1 "Roboto", san-serif;

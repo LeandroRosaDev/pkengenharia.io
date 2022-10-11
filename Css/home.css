@@ -1,86 +1,4 @@
-/* Menu */
-.logo {
-  width: 8%;
-  height: 8%;
-}
-.menu {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  gap: 50px;
-  text-transform: uppercase;
-  position: fixed;
-  left: 0;
-  top: 0;
-  width: 100%;
-  background: #ffffff;
-  z-index: 998;
-}
-.nav-primaria {
-  display: flex;
-  padding: 40px;
-  gap: 40px;
-}
-.nav-primaria li {
-  padding: 13px 5px;
-  line-height: 20px;
-}
-.orçamento {
-  background: #2da8dd;
-  padding: 15px;
-  border-radius: 15px;
-  text-transform: uppercase;
-  display: flex;
-  align-items: center;
-}
-.menu-tel {
-  display: flex;
-  align-items: center;
-}
-.menu-tel img {
-  width: 24px;
-  height: 24px;
-  margin-right: 10px;
-  color: #2da8dd;
-}
-.nav-primaria span {
-  color: #2da8dd;
-}
-
-.nav-primaria a:hover {
-  color: #2da8dd;
-  transition: 0.5s;
-  opacity: 0.7;
-}
-
-/*sub-menu*/
-
-.nav-secundaria {
-  display: none;
-  position: absolute;
-  color: white;
-}
-.menu ul li:hover ul {
-  display: block;
-  background-color: #2da8dd;
-  margin-top: 10px;
-  border-radius: 4px;
-  padding: 15px;
-  transition: 0.8s;
-}
-.nav-secundaria li:hover {
-  background-color: #49bef0;
-  transition: background 0.6s;
-  border-radius: 4px;
-}
-.nav-secundaria a {
-  color: #ffffff;
-  font-weight: bold;
-}
-
 /* conteudo */
-
 .container-home {
   background-image: url("../Imagens/Logo/banner-1.jpg");
   background-repeat: no-repeat;
@@ -196,8 +114,7 @@
 }
 /* Modelos Ar condicionado */
 .title-modelos {
-  max-width: 550px;
-  max-height: 550px;
+  max-width: 600px;
 }
 .modelos-home {
   display: flex;
@@ -206,25 +123,68 @@
   padding: 65px 0;
 }
 .modelos-home img {
-  justify-content: end;
   max-width: 483px;
   max-height: 483px;
 }
 .modelos-text {
   display: grid;
+  gap: 0 50px;
   grid-template-columns: 1fr 1fr;
   max-width: 550px;
-  max-height: 550px;
-  padding: 35px 0;
+  padding: 35px 10px;
+}
+.title-modelos p {
+  font-size: 1.2rem;
+  line-height: 32px;
+  margin-top: 30px;
+}
+.modelos-text-grid h2 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+.modelos-text-grid p {
+  line-height: 24px;
+  font-size: 1.2rem;
+  padding-bottom: 15px;
 }
 
-.text-modelos > h2 {
-  font-size: 1.2rem;
-  padding: 100px;
+.modelos-text-grid h2::before {
+  content: url("../imagens/icones/check-circle.svg");
+  margin-left: -35px;
+  float: left;
 }
 
 /* Manuteção home */
 
 .manutencao-home {
   background-color: var(--cor-v1);
+}
+/* Parcerias home */
+
+.parceria-container {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  margin: auto auto;
+  height: 500px;
+  width: 550px;
+}
+.parceria-conteudo h1 {
+  margin: 70px;
+  font-size: 2.5rem;
+  text-transform: uppercase;
+}
+.parceria-conteudo p {
+  font-size: large;
+}
+.parceria-borda {
+  border: 1px solid var(--cor-v1);
+  margin: 30px 10px 0px 10px;
+  padding: 20px;
+  max-height: 150px;
+  max-width: 150px;
+}
+.parceria-borda img:hover {
+  transform: scale(1.2);
+  transition: all 0.3s;
 }
