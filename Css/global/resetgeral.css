@@ -40,7 +40,6 @@ tt,
 var,
 b,
 u,
-i,
 center,
 dl,
 dt,
@@ -71,7 +70,7 @@ footer,
 header,
 hgroup,
 menu,
-nav,
+
 output,
 ruby,
 section,
@@ -83,11 +82,11 @@ video {
   margin: 0;
   padding: 0;
   border: 0;
-  font-size: 100%;
-  font: inherit;
+  /* font-size: 100%;
+  font: inherit; */
   vertical-align: baseline;
   text-decoration: none;
-  color: black;
+  /* color: black; */
   list-style: none;
   max-width: 100%;
 }
