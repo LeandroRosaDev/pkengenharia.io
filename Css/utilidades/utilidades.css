@@ -16,6 +16,7 @@
   font-weight: bold;
   font-size: 1.125rem;
   cursor: pointer;
+  text-align: center;
 }
 
 .botao:hover {

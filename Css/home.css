@@ -99,7 +99,7 @@
 }
 .botao-home {
   display: inline-block;
-  border: 2px solid #ffffff;
+  border: 1px solid var(--cor-v0);
   box-sizing: border-box;
   border-radius: 20px;
   padding: 15px 30px;
@@ -122,46 +122,108 @@
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
-  text-align: start;
   margin: 20px 0;
-  grid-column: 3;
 }
 .text-home p {
   line-height: 28px;
   padding: 10px;
 }
-.text-home > a {
+.text-home a {
   max-width: 130px;
   max-height: 40px;
-  font-weight: bold;
-  justify-content: center;
-  border-radius: 20px;
 }
 .text-home h1 {
   margin-bottom: 40px;
   margin-left: 10px;
+  width: 600px;
 }
+.contato-b-home {
+  max-width: 205px !important;
+}
+
 /* Soluções Home */
-.container-solucao {
+
+.title-servico {
+  background: var(--cor-v1);
+  justify-content: center;
+  text-align: center;
+  padding-top: 70px;
+  padding-bottom: 50px;
+}
+.container-servico {
   display: flex;
   flex-wrap: wrap;
-  text-align: center;
-  background-color: #f2f3f4;
-  padding: 60px 0;
-  justify-content: center;
+  justify-content: space-between;
+  background-color: var(--cor-v1);
+  padding: 40px 470px;
 }
-.container-solucao a {
+.text-servico a {
   color: #2da8dd;
   letter-spacing: 1.3px;
+  font-weight: bold;
 }
-.img-home1 {
-  display: flex;
+
+.text-servico > h2,
+.text-servico > p {
+  max-width: 460px;
+  max-height: 370px;
+  line-height: 30px;
+  padding-bottom: 45px;
+  justify-content: center;
 }
-.img-home2 {
+
+/* Paragrafo azul */
+
+.container-azul {
+  background-color: var(--cor-v5);
+  padding: 106px 382px;
   display: flex;
-  flex-direction: column;
-  align-items: flex-end;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
 }
-.img-home3 {
+.container-azul > a {
+  padding: 20px 40px;
+  text-align: center;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin-right: 90px;
+}
+.container-azul a:hover {
+  transform: scale(1.07);
+  transition: all 0.3s;
+}
+/* Modelos Ar condicionado */
+.title-modelos {
+  max-width: 550px;
+  max-height: 550px;
+}
+.modelos-home {
   display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 65px 0;
+}
+.modelos-home img {
+  justify-content: end;
+  max-width: 483px;
+  max-height: 483px;
+}
+.modelos-text {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  max-width: 550px;
+  max-height: 550px;
+  padding: 35px 0;
+}
+
+.text-modelos > h2 {
+  font-size: 1.2rem;
+  padding: 100px;
+}
+
+/* Manuteção home */
+
+.manutencao-home {
+  background-color: var(--cor-v1);
 }
