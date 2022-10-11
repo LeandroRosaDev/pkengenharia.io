@@ -1,39 +1,53 @@
 .cor-0 {
-  color: #ffffff;
+  color: var(--cor-v0);
 }
 .cor-1 {
-  color: #eeeeee;
+  color: var(--cor-v1);
 }
 .cor-2 {
-  color: #000000;
+  color: var(--cor-v2);
 }
 .cor-3 {
-  color: #606062;
+  color: var(--cor-v3);
 }
 .cor-4 {
-  color: #2da8dd;
+  color: var(--cor-v4);
 }
 .cor-5 {
-  color: #1a476d;
+  color: var(--cor-v5);
 }
 .cor-6 {
-  color: #1f2637;
+  color: var(--cor-v6);
 }
 .cor-7 {
-  color: #071f39;
+  color: var(--cor-v7);
 }
 
 /* Cores para o futuro */
 
 .cor-8 {
-  color: #00375b;
+  color: var(--cor-v8);
 }
 .cor-9 {
-  color: #009cb9;
+  color: var(--cor-v9);
 }
 .cor-10 {
-  color: #ffc03c;
+  color: var(--cor-v10);
 }
 .cor-11 {
-  color: #fcff48;
+  color: var(--cor-v11);
+}
+:root {
+  --cor-v0: #ffffff;
+  --cor-v1: #eeeeee;
+  --cor-v2: #000000;
+  --cor-v3: #606062;
+  --cor-v4: #2da8dd;
+  --cor-v5: #1a476d;
+  --cor-v6: #1f2637;
+  --cor-v7: #071f39;
+  --cor-v8: #00375b;
+  --cor-v9: #009cb9;
+  --cor-v10: #ffc03c;
+  --cor-v11: #fcff48;
 }
