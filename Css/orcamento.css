@@ -1,0 +1,83 @@
+.banner-orcamento {
+  max-width: 100%;
+}
+.banner-orcamento img {
+  width: 100%;
+  margin-top: 140px;
+}
+
+/* Formulario */
+.orcamento-detalhe {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-top: 60px;
+  line-break: inherit;
+}
+
+.orcamento-detalhe p {
+  margin-top: -45px;
+  text-align: center;
+}
+
+.form-orcamento {
+  display: flex;
+  flex-wrap: wrap;
+  width: 830px;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  gap: 5px;
+}
+
+.form-orcamento input[type="text"],
+.form-orcamento input[type="email"],
+.form-orcamento textarea {
+  font: 400 1rem/1.5 "Roboto", sans-serif;
+  background: #f2f3f4;
+  border: 0px solid #e5e5e5;
+  border-radius: 20px;
+  margin: 3px;
+  padding: 10px;
+  padding-right: 200px;
+}
+
+.form-orcamento input[type="text"]:focus,
+.form-orcamento input[type="email"]:focus,
+.form-orcamento textarea:focus {
+  outline: none;
+  border: 1px solid #e5e5e5;
+}
+
+.form-orcamento textarea {
+  padding-right: 605px;
+}
+
+.form-orcamento ::placeholder {
+  color: #8a8a8a;
+}
+
+.whats-orcamento {
+  display: flex;
+  color: #606062;
+  font-family: "Roboto", sans-serif;
+  margin-top: -40px;
+  margin-bottom: 60px;
+  font-size: 20px;
+  line-height: 32px;
+  justify-content: center;
+}
+
+.whats-orcamento a {
+  padding: 5px 100px;
+}
+
+.whats-orcamento b {
+  font-weight: bold;
+}
+
+.whats-orcamento span::before {
+  content: url("../Imagens/icones/icon-whatsapp.svg");
+  float: left;
+}
