@@ -1,3 +1,46 @@
+/*Banner-Carrosel*/
+/* .pai {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.slider{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  width: 800px;
+  height: 400px;
+  overflow: hidden;
+} */
+
+.banner-home {
+  margin-top: 120px;
+  filter: brightness(25%);
+  background: url(../Imagens/img/banner-home.jpg) no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 650px;
+  z-index: 0;
+}
+.content-banner-home {
+  height: 650px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  z-index: 1;
+  flex-direction: column;
+}
+.texto-banner-home {
+  color: #ffffff;
+  text-transform: uppercase;
+}
 /* conteudo */
 .container-home {
   background-image: url("../Imagens/Logo/banner-1.jpg");
@@ -24,6 +67,7 @@
   padding: 15px 30px;
   text-align: center;
   cursor: pointer;
+  margin-top: 20px;
 }
 /* Abaixo do banner */
 .baixo-banner {
@@ -60,7 +104,7 @@
   max-width: 205px !important;
 }
 
-/* Soluções Home */
+/* Serviços Home */
 
 .title-servico {
   background: var(--cor-v1);
@@ -87,10 +131,13 @@
   max-width: 460px;
   max-height: 370px;
   line-height: 30px;
-  padding-bottom: 45px;
+  padding-bottom: 25px;
+  font-size: large;
   justify-content: center;
 }
-
+.text-servico > h2 {
+  font-size: 30px;
+}
 /* Paragrafo azul */
 
 .container-azul {
@@ -164,10 +211,11 @@
 .parceria-container {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
   text-align: center;
   margin: auto auto;
   height: 500px;
-  width: 550px;
+  width: 800px;
 }
 .parceria-conteudo h1 {
   margin: 70px;
@@ -176,10 +224,14 @@
 }
 .parceria-conteudo p {
   font-size: large;
+  text-align: center;
+}
+.logos-container-parcerias {
+  display: flex;
 }
 .parceria-borda {
   border: 1px solid var(--cor-v1);
-  margin: 30px 10px 0px 10px;
+  margin-right: 10px;
   padding: 20px;
   max-height: 150px;
   max-width: 150px;

@@ -70,13 +70,14 @@ footer,
 header,
 hgroup,
 menu,
-
+nav,
 output,
 ruby,
 section,
 summary,
 time,
 mark,
+a,
 audio,
 video {
   margin: 0;

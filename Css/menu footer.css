@@ -14,9 +14,10 @@
   position: fixed;
   left: 0;
   top: 0;
-  width: 100%;
+  max-width: 100%;
   background: #ffffff;
   z-index: 998;
+  box-shadow: 10px 0px 50px grey;
 }
 .nav-primaria {
   display: flex;
@@ -40,50 +41,72 @@
 .nav-primaria span {
   color: #2da8dd;
 }
-
-.nav-primaria a:hover {
+.nav-primaria-text {
+  color: #000000;
+ 
+}
+.nav-primaria-text:hover {
   color: #2da8dd;
   transition: 0.5s;
   opacity: 0.7;
 }
-
-/*sub-menu*/
-
+.detalhe{
+  padding: 15px;
+}
+.icone-seta{
+  position: absolute;
+  margin-left: -60px;
+  color: #2da8dd;
+}
+.icone-seta:hover{
+  color: #ffffff;
+  
+}
 .nav-secundaria {
   display: none;
   position: absolute;
   color: white;
+  box-shadow: 0px 20px 20px #000000;
 }
 .menu ul li:hover ul {
   display: block;
-  background-color: #2da8dd;
+  background-color: #ffffff;
   margin-top: 10px;
   border-radius: 4px;
   padding: 15px;
   transition: 0.8s;
 }
 .nav-secundaria li:hover {
-  background-color: #49bef0;
+  background-color: #2da8dd;
   transition: background 0.6s;
-  border-radius: 4px;
 }
-.nav-secundaria a {
+.nav-secundaria-text {
+  font-weight: 500;
+  font-size: 14px;
+  border-bottom: #2da8dd solid 2px;
+  width: 300px;
+}
+.border-none{
+  border-bottom: none;
+}
+.nav-secundaria-text a {
+  color: #2da8dd;
+  padding: 15px 65px;
+}
+.nav-secundaria-text a:hover {
   color: #ffffff;
-  font-weight: bold;
 }
 
 /* /////// FOOTER ///////// */
 .footer-bg {
   padding-top: 50px;
-  padding-bottom: 50px;
   background-color: #1a476d;
 }
 .footer-contato {
   display: flex;
-  align-items: center;
   justify-content: center;
-  gap: 40px;
-  align-items: center;
+  gap: 30px;
+  flex-wrap: wrap;
 }
 .footer-contato a {
   color: white;
@@ -95,17 +118,17 @@
   padding-bottom: 35px;
 }
 .icone-gps::before {
-  content: url("/pkengenharia.io/Imagens/icones/GPS.svg");
+  content: url("../Imagens/icones/GPS.svg");
   margin-right: 10px;
   float: left;
 }
 .icone-tel::before {
-  content: url("/pkengenharia.io/Imagens/icones/telefone.svg");
+  content: url("../Imagens/icones/telefone.svg");
   margin-right: 10px;
   float: left;
 }
 .icone-email::before {
-  content: url("/pkengenharia.io/Imagens/icones/email.svg");
+  content: url("../Imagens/icones/email.svg");
   margin-right: 10px;
   float: left;
 }
