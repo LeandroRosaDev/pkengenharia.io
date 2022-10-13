@@ -1,0 +1,99 @@
+.banner-climatizacao {
+  margin-top: 120px;
+  filter: brightness(35%);
+  background: url(../Imagens/img/banner-climatizaçao.jpg) no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 450px;
+  z-index: 0;
+}
+.content-banner-climatizacao {
+  height: 450px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  z-index: 1;
+}
+.texto-banner-climatizacao {
+  color: #ffffff;
+  font-size: 64px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+/* Texto */
+
+.conteiner-climatizacao {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-content: center;
+}
+
+.descricao-climatizacao {
+  display: grid;
+  align-content: center;
+  width: 510px;
+  padding: 40px;
+  text-align: left;
+  margin-left: auto;
+  gap: 3%;
+  align-content: center;
+}
+
+.descricao-climatizacao h1 {
+  font-family: "Barlow", sans-serif;
+  font-size: 2.25rem;
+  font-weight: bold;
+}
+
+.descricao-climatizacao p {
+  font-family: "Roboto", sans-serif;
+  align-content: center;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 32px;
+}
+
+.img-climatizacao {
+  width: 510px;
+  margin: 10% 5%;
+}
+
+.conteiner-climatizacao-2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-content: center;
+  background: #f2f3f4;
+}
+
+.descricao-climatizacao-2 {
+  display: grid;
+  width: 510px;
+  padding: 50px;
+  text-align: left;
+  margin-left: right;
+  gap: 3%;
+  align-content: center;
+}
+
+.descricao-climatizacao-2 h1 {
+  font-family: "Barlow", sans-serif;
+  font-size: 2.25rem;
+  font-weight: bold;
+}
+
+.descricao-climatizacao-2 p {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 32px;
+}
+
+.img-climatizacao-2 {
+  width: 510px;
+  margin: 10% 5%;
+  grid-area: 1 / 1;
+  margin-left: auto;
+}
