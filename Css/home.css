@@ -1,24 +1,5 @@
 /*Banner-Carrosel*/
-/* .pai {
-  margin: 0;
-  padding: 0;
-  width: 100%;
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.slider{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 0 auto;
-  width: 800px;
-  height: 400px;
-  overflow: hidden;
-} */
-
-.banner-home {
+/* .banner-home {
   margin-top: 120px;
   filter: brightness(25%);
   background: url(../Imagens/img/banner-home.jpg) no-repeat;
