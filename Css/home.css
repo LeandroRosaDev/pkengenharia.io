@@ -97,9 +97,10 @@
 .container-servico {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: center;
+  gap: 50px;
   background-color: var(--cor-v1);
-  padding: 40px 470px;
+  padding: 40px;
 }
 .text-servico a {
   color: #2da8dd;
@@ -123,10 +124,11 @@
 
 .container-azul {
   background-color: var(--cor-v5);
-  padding: 106px 382px;
+  padding: 100px 100px;
+  max-width: 100%;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: space-evenly;
   align-items: center;
 }
 .container-azul > a {
@@ -211,7 +213,7 @@
   display: flex;
 }
 .parceria-borda {
-  border: 1px solid var(--cor-v1);
+  border: 1px solid var(--cor-v0);
   margin-right: 10px;
   padding: 20px;
   max-height: 150px;

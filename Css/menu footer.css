@@ -43,24 +43,22 @@
 }
 .nav-primaria-text {
   color: #000000;
- 
 }
 .nav-primaria-text:hover {
   color: #2da8dd;
   transition: 0.5s;
   opacity: 0.7;
 }
-.detalhe{
+.detalhe {
   padding: 15px;
 }
-.icone-seta{
+.icone-seta {
   position: absolute;
   margin-left: -60px;
   color: #2da8dd;
 }
-.icone-seta:hover{
+.icone-seta:hover {
   color: #ffffff;
-  
 }
 .nav-secundaria {
   display: none;
@@ -86,7 +84,7 @@
   border-bottom: #2da8dd solid 2px;
   width: 300px;
 }
-.border-none{
+.border-none {
   border-bottom: none;
 }
 .nav-secundaria-text a {
