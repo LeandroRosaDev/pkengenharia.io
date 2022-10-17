@@ -1,7 +1,7 @@
 /* Menu */
 .logo {
-  width: 8%;
-  height: 8%;
+  width: 10%;
+  height: 10%;
   margin: 10px 0;
 }
 .menu {
@@ -14,7 +14,7 @@
   position: fixed;
   left: 0;
   top: 0;
-  max-width: 100%;
+  width: 100%;
   background: #ffffff;
   z-index: 998;
   box-shadow: 10px 0px 50px grey;
