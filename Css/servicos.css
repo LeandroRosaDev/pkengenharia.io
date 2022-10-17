@@ -59,7 +59,9 @@
 }
 
 .img-servicos {
-  width: 510px;
+  width: 600px;
+  height: 450px;
+  border-radius: 20px;
   margin: 10% 5%;
 }
 
@@ -94,7 +96,9 @@
 }
 
 .img-servicos-2 {
-  width: 510px;
+  width: 600px;
+  height: 450px;
+  border-radius: 20px;
   margin: 10% 5%;
   grid-area: 1 / 1;
   margin-left: auto;
