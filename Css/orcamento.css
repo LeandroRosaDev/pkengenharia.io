@@ -98,3 +98,21 @@
   content: url("../Imagens/icones/icon-whatsapp.svg");
   float: left;
 }
+
+@media only screen and (max-width: 900px) {
+  .menu {
+    display: none;
+  }
+  .form-orcamento {
+    display: grid;
+    justify-items: center;
+    grid-template-columns: 1fr;
+  }
+  .form-orcamento textarea {
+    padding-right: 220px;
+  }
+  .botao-contato {
+    width: 490px;
+    display: grid;
+  }
+}
