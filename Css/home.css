@@ -1,11 +1,11 @@
 /*Banner-Carrosel*/
-.body{
-margin-top: 100px;
-width: 100%;
-display: flex;
-align-items: center;
-justify-content: center;
-background-color: black;
+.body {
+  margin-top: 100px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
 }
 .slide {
   width: 1024px;
@@ -13,20 +13,18 @@ background-color: black;
   overflow: hidden;
   transition: all 0.4s;
 }
-.slides{
+.slides {
   width: 5000px;
   display: flex;
 }
-.image{
+.image {
   width: 1024px;
   height: 400px;
-  
-  
 }
-#atual{
+#atual {
   transition: all 2s;
 }
-.btn{
+.btn {
   position: absolute;
   color: #ffffff;
   text-align: center;
@@ -38,14 +36,14 @@ background-color: black;
   font-size: 1.7em;
   margin-top: -5px;
 }
-.btn:hover{
+.btn:hover {
   transform: scale(1.5);
 }
-#voltar{
+#voltar {
   top: 50%;
   left: 10%;
 }
-#next{
+#next {
   top: 50%;
   right: 10%;
 }
@@ -56,7 +54,7 @@ background-color: black;
   justify-content: center;
   margin-top: -45px;
 }
-.balls div{
+.balls div {
   transition: all 0.5;
   border: 3px solid #ffffff;
   padding: 4px;
@@ -64,10 +62,10 @@ background-color: black;
   margin-right: 15px;
   cursor: pointer;
 }
-.balls div:hover{
+.balls div:hover {
   background: #ffffff;
 }
-.imgAtual{
+.imgAtual {
   transition: all 0.5s;
   background: #ffffff;
 }
@@ -261,6 +259,7 @@ background-color: black;
 .manutencao-home {
   background-color: var(--cor-v1);
 }
+
 /* Parcerias home */
 
 .parceria-container {
@@ -269,7 +268,6 @@ background-color: black;
   justify-content: center;
   text-align: center;
   margin: auto auto;
-  height: 500px;
   width: 800px;
 }
 .parceria-conteudo h1 {
@@ -283,15 +281,18 @@ background-color: black;
 }
 .logos-container-parcerias {
   display: flex;
+  flex-wrap: wrap;
 }
 .parceria-borda {
-  border: 1px solid var(--cor-v0);
-  margin-right: 10px;
   padding: 20px;
-  max-height: 150px;
+}
+.parceria-borda img {
   max-width: 150px;
 }
 .parceria-borda img:hover {
   transform: scale(1.2);
   transition: all 0.3s;
+}
+.boder-20 {
+  border-radius: 20px;
 }
