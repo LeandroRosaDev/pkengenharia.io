@@ -12,24 +12,24 @@ background-color: white;
   overflow: hidden;
   transition: all 0.4s;
 }
-.slides{
+.slides {
   width: 5000px;
   display: flex;
 }
-.image{
+.image {
   width: 1330px;
   height: 450px;
   background-color: black;
 }
-.image img{
+.image img {
   width: 1330px;
   height: 450px;
   filter: brightness(30%);
 }
-#atual{
+#atual {
   transition: all 2s;
 }
-.btn{
+.btn {
   position: absolute;
   color: #ffffff;
   text-align: center;
@@ -41,14 +41,14 @@ background-color: white;
   font-size: 1.7em;
   margin-top: -5px;
 }
-.btn:hover{
+.btn:hover {
   transform: scale(1.5);
 }
-#voltar{
+#voltar {
   top: 50%;
   left: 5%;
 }
-#next{
+#next {
   top: 50%;
   right: 5%;
 }
@@ -59,7 +59,7 @@ background-color: white;
   justify-content: center;
   margin-top: -45px;
 }
-.balls div{
+.balls div {
   transition: all 0.5;
   border: 3px solid #ffffff;
   padding: 4px;
@@ -67,10 +67,10 @@ background-color: white;
   margin-right: 15px;
   cursor: pointer;
 }
-.balls div:hover{
+.balls div:hover {
   background: #ffffff;
 }
-.imgAtual{
+.imgAtual {
   transition: all 0.5s;
   background: #ffffff;
 }
@@ -213,6 +213,7 @@ background-color: white;
 .manutencao-home {
   background-color: var(--cor-v1);
 }
+
 /* Parcerias home */
 
 .parceria-container {
@@ -221,7 +222,6 @@ background-color: white;
   justify-content: center;
   text-align: center;
   margin: auto auto;
-  height: 500px;
   width: 800px;
 }
 .parceria-conteudo h1 {
@@ -235,15 +235,18 @@ background-color: white;
 }
 .logos-container-parcerias {
   display: flex;
+  flex-wrap: wrap;
 }
 .parceria-borda {
-  border: 1px solid var(--cor-v0);
-  margin-right: 10px;
   padding: 20px;
-  max-height: 150px;
+}
+.parceria-borda img {
   max-width: 150px;
 }
 .parceria-borda img:hover {
   transform: scale(1.2);
   transition: all 0.3s;
+}
+.boder-20 {
+  border-radius: 20px;
 }
