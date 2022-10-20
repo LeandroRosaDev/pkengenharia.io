@@ -5,7 +5,6 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: black;
 }
 .slide {
   width: 1920px;
@@ -55,10 +54,10 @@
 }
 .balls {
   position: absolute;
-  width: 1330px;
+  bottom: 380px;
+  max-width: 1920px;
+  max-height: 100%;
   display: flex;
-  justify-content: center;
-  margin-top: -45px;
 }
 .balls div {
   transition: all 0.5;
@@ -75,47 +74,9 @@
   transition: all 0.5s;
   background: #ffffff;
 }
-.banner-home {
-  margin-top: 120px;
-  filter: brightness(25%);
-  background: url(../Imagens/img/banner-home.jpg) no-repeat;
-  background-size: cover;
-  width: 100%;
-  height: 650px;
-  z-index: 0;
-}
-.content-banner-home {
-  height: 650px;
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  position: absolute;
-  z-index: 1;
-  flex-direction: column;
-}
-.texto-banner-home {
-  color: #ffffff;
-  text-transform: uppercase;
-}
-/* conteudo
-.container-home {
-  background-image: url("../Imagens/Logo/banner-1.jpg");
-  background-repeat: no-repeat;
-  background-size: 100%;
-  display: block;
-  height: 600px;
-  margin-top: 130px;
-}
-.text-banner {
-  background-color: rgba(11, 29, 54, 0.75);
-  height: 59%;
-  text-align: center;
-  padding-top: 240px;
-}
-.text-banner p {
-  margin-bottom: 30px;
-}
+
+/* conteudo */
+
 .botao-home {
   display: inline-block;
   border: 1px solid var(--cor-v0);
@@ -126,13 +87,14 @@
   cursor: pointer;
   margin-top: 20px;
 }
+
 /* Abaixo do banner */
+
 .baixo-banner {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-gap: 40px;
   padding: 60px 0px;
-  align-items: center;
 }
 .baixo-banner img {
   grid-column: 2;
@@ -141,8 +103,6 @@
 .text-home {
   display: flex;
   flex-wrap: wrap;
-  flex-direction: column;
-  margin: 20px 0;
 }
 .text-home p {
   line-height: 28px;
@@ -150,12 +110,13 @@
 }
 .text-home a {
   max-width: 130px;
-  max-height: 40px;
+  max-height: 20px;
 }
 .text-home h1 {
   margin-bottom: 40px;
   margin-left: 10px;
-  width: 600px;
+  max-width: 600px;
+  min-width: 300px;
 }
 .contato-b-home {
   max-width: 205px !important;
@@ -190,12 +151,9 @@
   max-height: 370px;
   line-height: 30px;
   padding-bottom: 25px;
-  font-size: large;
   justify-content: center;
 }
-.text-servico > h2 {
-  font-size: 30px;
-}
+
 /* Paragrafo azul */
 
 .container-azul {
@@ -224,7 +182,6 @@
 }
 .modelos-home {
   display: flex;
-  flex-wrap: wrap;
   justify-content: center;
   padding: 65px 0;
 }
@@ -237,20 +194,17 @@
   gap: 0 50px;
   grid-template-columns: 1fr 1fr;
   max-width: 550px;
-  padding: 35px 10px;
+  padding: 35px 35px;
 }
 .title-modelos p {
-  font-size: 1.2rem;
   line-height: 32px;
   margin-top: 30px;
 }
 .modelos-text-grid h2 {
-  font-size: 1.2rem;
   margin-bottom: 10px;
 }
 .modelos-text-grid p {
   line-height: 24px;
-  font-size: 1.2rem;
   padding-bottom: 15px;
 }
 
@@ -274,17 +228,13 @@
   justify-content: center;
   text-align: center;
   margin: auto auto;
-  width: 800px;
+  max-width: 800px;
 }
 .parceria-conteudo h1 {
   margin: 70px;
-  font-size: 2.5rem;
   text-transform: uppercase;
 }
-.parceria-conteudo p {
-  font-size: large;
-  text-align: center;
-}
+
 .logos-container-parcerias {
   display: flex;
   flex-wrap: wrap;
@@ -301,4 +251,52 @@
 }
 .boder-20 {
   border-radius: 20px;
+}
+
+@media (max-width: 1000px) {
+  .baixo-banner img {
+    max-width: 400px;
+  }
+  .modelos-home img {
+    max-width: 383px;
+    max-height: 383px;
+  }
+  .container-servico img {
+    width: 250px;
+    height: 250px;
+  }
+}
+@media (max-width: 900px) {
+  .baixo-banner img {
+    display: none;
+  }
+  .baixo-banner {
+    grid-template-columns: repeat(5, 1fr);
+  }
+  .text-home {
+    grid-column: 2/5;
+    justify-content: center;
+    text-align: center;
+  }
+  .modelos-home img {
+    display: none;
+  }
+}
+@media (max-width: 840px) {
+  .container-servico {
+    display: grid;
+    grid-template-rows: 2;
+    grid-template-columns: repeat(5, 1fr);
+  }
+  .container-servico img {
+    grid-row: 2;
+    grid-column: 3;
+    justify-content: center;
+    text-align: center;
+  }
+  .text-servico {
+    grid-column: 2/5;
+    justify-content: center;
+    text-align: center;
+  }
 }

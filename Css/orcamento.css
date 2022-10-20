@@ -100,9 +100,6 @@
 }
 
 @media only screen and (max-width: 900px) {
-  .menu {
-    display: none;
-  }
   .form-orcamento {
     display: grid;
     justify-items: center;
