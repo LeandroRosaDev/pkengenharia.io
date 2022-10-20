@@ -95,3 +95,18 @@
 .gps {
   margin-bottom: 50px;
 }
+
+@media (max-width: 1000px) {
+  .form-contato {
+    display: grid;
+    width: 300px;
+    justify-items: center;
+    grid-template-columns: 1fr;
+  }
+  .form-contato textarea {
+    padding-right: 220px;
+  }
+  .texto-banner-contato {
+    font-size: 48px;
+  }
+}
