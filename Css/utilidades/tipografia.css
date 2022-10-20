@@ -1,15 +1,11 @@
-.font-ri-400 {
-  font: 400 1rem/1 "Roboto", san-serif;
-  font-style: italic;
-}
 .font-r-400 {
-  font: 400 1rem/1 "Roboto", san-serif;
+  font: 400 1.125rem/1 "Roboto", san-serif;
 }
-.font-r-12-700 {
-  font: 700 1.2rem/1 "Roboto", san-serif;
+.font-r-16-700 {
+  font: 700 1rem/1 "Roboto", san-serif;
 }
 .font-r-1-700 {
-  font: 700 1rem/1 "Roboto", san-serif;
+  font: 700 1.125rem/1 "Roboto", san-serif;
 }
 .font-r-2-700 {
   font: 700 2.25rem/1 "Roboto", san-serif;
@@ -21,13 +17,13 @@
   font: 800 2.75rem/1 "Roboto", san-serif;
 }
 .font-b-1-400 {
-  font: 400 1rem/1 "Barlow", san-serif;
+  font: 400 1.125rem/1 "Barlow", san-serif;
 }
 .font-b-2-400 {
   font: 400 2.25rem/1 "Barlow", san-serif;
 }
 .font-b-1-700 {
-  font: 700 1.8rem/1 "Barlow", san-serif;
+  font: 700 1.875rem/1 "Barlow", san-serif;
 }
 .font-b-2-700 {
   font: 700 2.25rem/1 "Barlow", san-serif;
@@ -37,4 +33,27 @@
 }
 .font-n-400 {
   font: 400 1rem/1 "Nunito", san-serif;
+}
+@media (max-width: 800px) {
+  .font-r-1-800,
+  .font-r-16-700 {
+    font-size: 0.8rem;
+  }
+  .font-r-1-700,
+  .font-b-1-400,
+  .font-r-400 {
+    font-size: 0.875rem;
+  }
+  .font-b-2-400,
+  .font-b-2-700,
+  .font-r-2-800,
+  .font-r-2-700 {
+    font-size: 1.8rem;
+  }
+  .font-b-1-700 {
+    font-size: 1.45rem;
+  }
+  .font-b-3-700 {
+    font-size: 2.5rem;
+  }
 }

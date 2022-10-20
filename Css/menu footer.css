@@ -38,9 +38,6 @@
   margin: auto auto;
   margin-right: 10px;
 }
-.nav-primaria span {
-  color: #2da8dd;
-}
 .nav-primaria-text {
   color: #000000;
 }
@@ -49,16 +46,20 @@
   transition: 0.5s;
   opacity: 0.7;
 }
-.detalhe {
-  padding: 15px;
+
+.detalhe::after {
+  content: "";
+  display: inline-block;
+  width: 14px;
+  height: 6px;
+  margin-left: 5px;
+  margin-bottom: 2px;
+  background: url("../imagens/icones/seta-abrir.svg");
+  transform: rotate(180deg);
+  transition: 0.5s;
 }
-.icone-seta {
-  position: absolute;
-  margin-left: -60px;
-  color: #2da8dd;
-}
-.icone-seta:hover {
-  color: #ffffff;
+.detalhe:hover::after {
+  background: url("../imagens/icones/seta-abrir\ azul.svg");
 }
 .nav-secundaria {
   display: none;
@@ -135,4 +136,18 @@
   display: flex;
   align-items: center;
   justify-content: center;
+}
+@media (max-width: 1150px) {
+  .menu-tel {
+    display: none;
+  }
+  .nav-primaria,
+  .menu {
+    gap: 10px;
+  }
+}
+@media (max-width: 750px) {
+  .orcamento-menu {
+    display: none;
+  }
 }
