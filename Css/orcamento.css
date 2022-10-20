@@ -1,7 +1,7 @@
 .banner-orcamento {
   margin-top: 120px;
   filter: brightness(35%);
-  background: url(../Imagens/img/banner-orçamento.jpg) no-repeat;
+  background: url(../Imagens/img/banner-orcamento.png) no-repeat;
   background-size: cover;
   width: 100%;
   height: 450px;
@@ -17,6 +17,7 @@
   z-index: 1;
 }
 .texto-banner-orcamento {
+  position: absolute;
   color: #ffffff;
   font-size: 64px;
   font-weight: bold;
@@ -98,10 +99,13 @@
   content: url("../Imagens/icones/icon-whatsapp.svg");
   float: left;
 }
-
-@media only screen and (max-width: 900px) {
+@media (max-width: 1000px) {
+  .menu {
+    display: none;
+  }
   .form-orcamento {
     display: grid;
+    width: 300px;
     justify-items: center;
     grid-template-columns: 1fr;
   }
@@ -109,7 +113,20 @@
     padding-right: 220px;
   }
   .botao-contato {
-    width: 490px;
+    width: 400px;
     display: grid;
+  }
+  .texto-banner-orcamento {
+    font-size: 32px;
+    margin-bottom: 15%;
+  }
+  .banner-orcamento {
+    height: 300px;
+  }
+}
+
+@media (max-width: 440px) {
+  .texto-banner-orcamento {
+    margin-left: 25%;
   }
 }
