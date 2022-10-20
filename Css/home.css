@@ -1,13 +1,13 @@
-.body{
-max-width: 100%;
-height: 100vh;
-display: flex;
-align-items: center;
-justify-content: center;
-background-color: white;
+/*Banner-Carrosel*/
+.body {
+  margin-top: 100px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .slide {
-  width: 1330px;
+  width: 1920px;
   height: 450px;
   overflow: hidden;
   transition: all 0.4s;
@@ -17,12 +17,12 @@ background-color: white;
   display: flex;
 }
 .image {
-  width: 1330px;
+  width: 1920px;
   height: 450px;
   background-color: black;
 }
 .image img {
-  width: 1330px;
+  width: 1920px;
   height: 450px;
   filter: brightness(30%);
 }
@@ -54,10 +54,10 @@ background-color: white;
 }
 .balls {
   position: absolute;
-  width: 100%;
+  bottom: 380px;
+  max-width: 1920px;
+  max-height: 100%;
   display: flex;
-  justify-content: center;
-  margin-top: -45px;
 }
 .balls div {
   transition: all 0.5;
@@ -74,13 +74,27 @@ background-color: white;
   transition: all 0.5s;
   background: #ffffff;
 }
+
+/* conteudo */
+
+.botao-home {
+  display: inline-block;
+  border: 1px solid var(--cor-v0);
+  box-sizing: border-box;
+  border-radius: 20px;
+  padding: 15px 30px;
+  text-align: center;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
 /* Abaixo do banner */
+
 .baixo-banner {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-gap: 40px;
   padding: 60px 0px;
-  align-items: center;
 }
 .baixo-banner img {
   grid-column: 2;
@@ -89,8 +103,6 @@ background-color: white;
 .text-home {
   display: flex;
   flex-wrap: wrap;
-  flex-direction: column;
-  margin: 20px 0;
 }
 .text-home p {
   line-height: 28px;
@@ -98,12 +110,13 @@ background-color: white;
 }
 .text-home a {
   max-width: 130px;
-  max-height: 40px;
+  max-height: 20px;
 }
 .text-home h1 {
   margin-bottom: 40px;
   margin-left: 10px;
-  width: 600px;
+  max-width: 600px;
+  min-width: 300px;
 }
 .contato-b-home {
   max-width: 205px !important;
@@ -138,12 +151,9 @@ background-color: white;
   max-height: 370px;
   line-height: 30px;
   padding-bottom: 25px;
-  font-size: large;
   justify-content: center;
 }
-.text-servico > h2 {
-  font-size: 30px;
-}
+
 /* Paragrafo azul */
 
 .container-azul {
@@ -172,7 +182,6 @@ background-color: white;
 }
 .modelos-home {
   display: flex;
-  flex-wrap: wrap;
   justify-content: center;
   padding: 65px 0;
 }
@@ -185,20 +194,17 @@ background-color: white;
   gap: 0 50px;
   grid-template-columns: 1fr 1fr;
   max-width: 550px;
-  padding: 35px 10px;
+  padding: 35px 35px;
 }
 .title-modelos p {
-  font-size: 1.2rem;
   line-height: 32px;
   margin-top: 30px;
 }
 .modelos-text-grid h2 {
-  font-size: 1.2rem;
   margin-bottom: 10px;
 }
 .modelos-text-grid p {
   line-height: 24px;
-  font-size: 1.2rem;
   padding-bottom: 15px;
 }
 
@@ -222,17 +228,13 @@ background-color: white;
   justify-content: center;
   text-align: center;
   margin: auto auto;
-  width: 800px;
+  max-width: 800px;
 }
 .parceria-conteudo h1 {
   margin: 70px;
-  font-size: 2.5rem;
   text-transform: uppercase;
 }
-.parceria-conteudo p {
-  font-size: large;
-  text-align: center;
-}
+
 .logos-container-parcerias {
   display: flex;
   flex-wrap: wrap;
@@ -249,4 +251,52 @@ background-color: white;
 }
 .boder-20 {
   border-radius: 20px;
+}
+
+@media (max-width: 1000px) {
+  .baixo-banner img {
+    max-width: 400px;
+  }
+  .modelos-home img {
+    max-width: 383px;
+    max-height: 383px;
+  }
+  .container-servico img {
+    width: 250px;
+    height: 250px;
+  }
+}
+@media (max-width: 900px) {
+  .baixo-banner img {
+    display: none;
+  }
+  .baixo-banner {
+    grid-template-columns: repeat(5, 1fr);
+  }
+  .text-home {
+    grid-column: 2/5;
+    justify-content: center;
+    text-align: center;
+  }
+  .modelos-home img {
+    display: none;
+  }
+}
+@media (max-width: 840px) {
+  .container-servico {
+    display: grid;
+    grid-template-rows: 2;
+    grid-template-columns: repeat(5, 1fr);
+  }
+  .container-servico img {
+    grid-row: 2;
+    grid-column: 3;
+    justify-content: center;
+    text-align: center;
+  }
+  .text-servico {
+    grid-column: 2/5;
+    justify-content: center;
+    text-align: center;
+  }
 }
