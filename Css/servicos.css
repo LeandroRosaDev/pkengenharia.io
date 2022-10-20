@@ -2,7 +2,6 @@
 
 .banner-servicos {
   margin-top: 120px;
-  filter: brightness(35%);
   background: url(../Imagens/img/banner-servicos.jpg) no-repeat;
   background-size: cover;
   width: 100%;
@@ -30,7 +29,6 @@
 .conteiner-servicos {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  align-content: center;
 }
 
 .descricao-servicos {
@@ -41,7 +39,6 @@
   text-align: left;
   margin-left: auto;
   gap: 3%;
-  align-content: center;
 }
 
 .descricao-servicos h1 {
@@ -77,7 +74,6 @@
   width: 510px;
   padding: 50px;
   text-align: left;
-  margin-left: right;
   gap: 3%;
   align-content: center;
 }
@@ -90,7 +86,7 @@
 
 .descricao-servicos-2 p {
   font-family: "Roboto", sans-serif;
-  font-size: 18px;
+  font-size: 1.125rem;
   font-weight: 400;
   line-height: 32px;
 }
@@ -104,12 +100,54 @@
   margin-left: auto;
 }
 
-.lista-servicos li {
-  font-family: "Roboto", sans-serif;
-  list-style-type: initial;
-  margin-left: 10%;
-  font-size: 18px;
-  font-weight: 500;
-  line-height: 32px;
-  color: var(--cor-v3);
+@media (max-width: 1300px) {
+  .img-servicos,
+  .img-servicos-2 {
+    width: 400px;
+    height: 400px;
+  }
+  .descricao-servicos,
+  .descricao-servicos-2 {
+    width: 300px;
+  }
+  .descricao-servicos h1,
+  .descricao-servicos-2 h1 {
+    font-size: 1.5rem;
+  }
+  .descricao-servicos p,
+  .descricao-servicos-2 p {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 860px) {
+  .img-servicos,
+  .img-servicos-2 {
+    width: 300px;
+    height: 300px;
+  }
+  .descricao-servicos p,
+  .descricao-servicos-2 p {
+    line-height: 20px;
+  }
+}
+
+@media (max-width: 700px) {
+  .descricao-servicos,
+  .descricao-servicos-2 {
+    width: 85%;
+    grid-column: 1 / -1;
+    justify-content: center;
+  }
+  .img-servicos,
+  .img-servicos-2 {
+    display: none;
+  }
+  .descricao-servicos h1,
+  .descricao-servicos-2 h1,
+  .descricao-servicos p,
+  .descricao-servicos-2 p {
+    width: 400px;
+    text-align: center;
+  }
 }
