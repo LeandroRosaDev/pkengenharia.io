@@ -5,7 +5,6 @@
   border-radius: 20px;
   color: #ffffff;
   font-weight: bold;
-  font-size: 1.125rem;
   cursor: pointer;
   text-align: center;
 }
@@ -25,8 +24,8 @@
   cursor: pointer;
   background: #34af23;
   color: #fff;
-  font-size: 2.0rem;
-  border: 1px solid #f1f1f1;  
+  font-size: 2rem;
+  border: 1px solid #f1f1f1;
 
   animation-name: pulsar;
   animation-duration: 0.8s;
