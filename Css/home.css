@@ -158,14 +158,13 @@
 .container-azul {
   background-color: var(--cor-v5);
   padding: 100px 100px;
-  max-width: 100%;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
   align-items: center;
 }
 .container-azul > a {
-  padding: 20px 40px;
+  padding: 20px 30px;
   text-align: center;
   letter-spacing: 1px;
   text-transform: uppercase;
@@ -297,5 +296,34 @@
     grid-column: 2/5;
     justify-content: center;
     text-align: center;
+  }
+  .parceria-borda img {
+    width: 100px;
+  }
+  .title-servico {
+    padding-bottom: 20px;
+  }
+}
+@media (max-width: 600px) {
+  .container-azul {
+    text-align: center;
+    padding: 50px 50px;
+  }
+  .container-azul > a {
+    padding: 10px 15px;
+    margin: 20px 50%;
+  }
+  .logos-container-parcerias {
+    display: grid;
+    grid-template-rows: 2;
+    grid-template-columns: 1fr 1fr;
+  }
+  .parceria-borda img {
+    width: 90px;
+    margin: 10px;
+  }
+  .container-servico img {
+    width: 200px;
+    height: 200px;
   }
 }
