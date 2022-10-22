@@ -95,6 +95,9 @@
 .nav-secundaria-text a:hover {
   color: #ffffff;
 }
+.menu-hamburguer {
+  display: none;
+}
 
 /* /////// FOOTER ///////// */
 .footer-bg {
@@ -151,3 +154,5 @@
     display: none;
   }
 }
+/*menu responsivo*/
+

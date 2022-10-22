@@ -1,4 +1,5 @@
-Reset Geral html,
+Reset Geral 
+html,
 body,
 div,
 span,
@@ -78,7 +79,8 @@ time,
 mark,
 a,
 audio,
-video {
+video,
+li {
   margin: 0;
   padding: 0;
   border: 0;
@@ -86,5 +88,5 @@ video {
   text-decoration: none;
   list-style: none;
   color: black;
-
 }
+

@@ -97,7 +97,7 @@
 }
 .baixo-banner img {
   grid-column: 2;
-  max-width: 500px;
+  max-width: 600px;
 }
 .text-home {
   display: flex;
