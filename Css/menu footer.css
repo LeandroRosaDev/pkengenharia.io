@@ -58,8 +58,9 @@
   transform: rotate(180deg);
   transition: 0.5s;
 }
+
 .detalhe:hover::after {
-  background: url("../imagens/icones/seta-abrir\ azul.svg");
+  background: url("../imagens/icones/seta-abrir\ azul.svg") no-repeat;
 }
 .nav-secundaria {
   display: none;
@@ -144,6 +145,10 @@
   .nav-primaria,
   .menu {
     gap: 10px;
+  }
+  .logo {
+    width: 15%;
+    height: 15%;
   }
 }
 @media (max-width: 750px) {
