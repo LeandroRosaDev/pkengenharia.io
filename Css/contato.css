@@ -97,16 +97,47 @@
 }
 
 @media (max-width: 1000px) {
+  .banner-contato {
+    height: 300px;
+  }
+  .descricao-contato {
+    font-size: 14px;
+    line-height: 28px;
+  }
   .form-contato {
     display: grid;
-    width: 300px;
+    width: 260px;
     justify-items: center;
     grid-template-columns: 1fr;
   }
   .form-contato textarea {
-    padding-right: 220px;
+    padding-right: 200px;
+  }
+  .botao-contato {
+    width: 350px;
+    display: grid;
   }
   .texto-banner-contato {
-    font-size: 48px;
+    font-size: 32px;
+    margin-bottom: 15%;
+  }
+  .banner-contato {
+    height: 300px;
+  }
+}
+
+@media (max-width: 440px) {
+  .texto-banner-contato {
+    margin-left: 25%;
+  }
+  .botao-contato {
+    width: 250px;
+  }
+  .form-contato input[type="text"],
+  .form-contato input[type="email"] {
+    padding-right: 100px;
+  }
+  .form-contato textarea {
+    padding-right: 105px;
   }
 }

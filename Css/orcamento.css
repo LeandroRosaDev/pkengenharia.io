@@ -100,8 +100,8 @@
   float: left;
 }
 @media (max-width: 1000px) {
-  .menu {
-    display: none;
+  .banner-orcamento {
+    height: 300px;
   }
   .form-orcamento {
     display: grid;
@@ -128,5 +128,18 @@
 @media (max-width: 440px) {
   .texto-banner-orcamento {
     margin-left: 25%;
+  }
+  .botao-contato {
+    width: 300px;
+  }
+  .form-orcamento input[type="text"],
+  .form-orcamento input[type="email"] {
+    padding-right: 120px;
+  }
+  .form-orcamento textarea {
+    padding-right: 125px;
+  }
+  .whats-orcamento a {
+    padding: 5px 50px;
   }
 }
