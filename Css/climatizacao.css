@@ -26,7 +26,7 @@
 
 /* Texto */
 
-.conteiner-climatizacao {
+.container-climatizacao {
   display: grid;
   grid-template-columns: 1fr 1fr;
   align-content: center;
@@ -64,7 +64,7 @@
   margin: 10% 5%;
 }
 
-.conteiner-climatizacao-2 {
+.container-climatizacao-2 {
   display: grid;
   grid-template-columns: 1fr 1fr;
   align-content: center;
@@ -101,4 +101,117 @@
   margin: 10% 5%;
   grid-area: 1 / 1;
   margin-left: auto;
+}
+
+/* Responsivo */
+
+@media (max-width: 1300px) {
+  .img-climatizacao,
+  .img-climatizacao-2 {
+    width: 400px;
+    height: 400px;
+  }
+  .descricao-climatizacao,
+  .descricao-climatizacao-2 {
+    width: 300px;
+  }
+  .descricao-climatizacao h1,
+  .descricao-climatizacao-2 h1 {
+    font-size: 1.5rem;
+  }
+  .descricao-climatizacao p,
+  .descricao-climatizacao-2 p {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 1000px) {
+  .banner-climatizacao {
+    height: 300px;
+  }
+  .texto-banner-climatizacao {
+    font-size: 36px;
+    margin-bottom: 15%;
+  }
+}
+
+@media (max-width: 860px) {
+  .img-climatizacao,
+  .img-climatizacao-2 {
+    width: 300px;
+    height: 300px;
+  }
+  .descricao-climatizacao p,
+  .descricao-climatizacao-2 p {
+    line-height: 22px;
+  }
+}
+
+@media (max-width: 700px) {
+  .container-climatizacao,
+  .container-climatizacao-2 {
+    display: grid;
+    grid-template-rows: 2;
+    grid-template-columns: repeat(5, 1fr);
+  }
+  .img-climatizacao,
+  .img-climatizacao-2 {
+    grid-row: 2;
+    grid-column: 3;
+    justify-content: center;
+    text-align: center;
+    margin-left: 5%;
+    width: 250px;
+    height: 250px;
+  }
+  .descricao-climatizacao,
+  .descricao-climatizacao-2 {
+    margin-left: 15%;
+    grid-column: 2/5;
+    text-align: center;
+  }
+}
+
+@media (max-width: 500px) {
+  .img-climatizacao,
+  .img-climatizacao-2 {
+    margin-left: 12%;
+    margin-top: -15%;
+    width: 150px;
+    height: 150px;
+  }
+  .descricao-climatizacao,
+  .descricao-climatizacao-2 {
+    margin-left: 5%;
+  }
+  .descricao-climatizacao p,
+  .descricao-climatizacao-2 p {
+    font-size: 14px;
+  }
+  .descricao-climatizacao h1,
+  .descricao-climatizacao-2 h1 {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 415px) {
+  .img-climatizacao,
+  .img-climatizacao-2 {
+    width: 120px;
+    height: 120px;
+    margin-left: 15%;
+  }
+  .descricao-climatizacao,
+  .descricao-climatizacao-2 {
+    margin-left: 10%;
+    width: 180px;
+  }
+  .descricao-climatizacao p,
+  .descricao-climatizacao-2 p {
+    font-size: 12px;
+  }
+  .descricao-climatizacao h1,
+  .descricao-climatizacao-2 h1 {
+    font-size: 16px;
+  }
 }
