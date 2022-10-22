@@ -19,6 +19,9 @@
 .font-b-1-400 {
   font: 400 1.125rem/1 "Barlow", san-serif;
 }
+.font-b-1-500 {
+  font: 500 1.125rem/1 "Barlow", san-serif;
+}
 .font-b-2-400 {
   font: 400 2.25rem/1 "Barlow", san-serif;
 }
@@ -38,22 +41,56 @@
   .font-r-1-800,
   .font-r-16-700 {
     font-size: 0.8rem;
+    line-height: 0;
   }
-  .font-r-1-700,
+  .font-b-1-500 {
+    font-size: 1rem;
+  }
+  .font-r-1-700 {
+    font-size: 0.875rem;
+  }
   .font-b-1-400,
   .font-r-400 {
     font-size: 0.875rem;
+    line-height: 0;
+  }
+  .font-b-2-700,
+  .font-r-2-800 {
+    font-size: 1.8rem;
   }
   .font-b-2-400,
-  .font-b-2-700,
-  .font-r-2-800,
   .font-r-2-700 {
     font-size: 1.8rem;
   }
   .font-b-1-700 {
     font-size: 1.45rem;
+    line-height: 0;
   }
   .font-b-3-700 {
     font-size: 2.5rem;
+    line-height: 0;
+  }
+}
+@media (max-width: 600px) {
+  .font-r-1-800,
+  .font-r-16-700 {
+    font-size: 0.6rem;
+  }
+  .font-r-1-700,
+  .font-b-1-400,
+  .font-r-400 {
+    font-size: 0.675rem;
+  }
+  .font-b-2-400,
+  .font-b-2-700,
+  .font-r-2-800,
+  .font-r-2-700 {
+    font-size: 1.5rem;
+  }
+  .font-b-1-700 {
+    font-size: 1.15rem;
+  }
+  .font-b-3-700 {
+    font-size: 2.2rem;
   }
 }
