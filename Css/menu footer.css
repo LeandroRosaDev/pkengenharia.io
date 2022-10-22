@@ -96,9 +96,7 @@
 .nav-secundaria-text a:hover {
   color: #ffffff;
 }
-.menu-hamburguer {
-  display: none;
-}
+
 
 /* /////// FOOTER ///////// */
 .footer-bg {
@@ -141,6 +139,114 @@
   align-items: center;
   justify-content: center;
 }
+/* menu responsivo */
+.responsivo {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+.menu-responsivo {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  margin-top: 1rem;
+}
+.hamburguer {
+  width: 2rem;
+  height: 2rem;
+  position: fixed;
+  z-index: 5;
+  top: 2.5rem;
+  right: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+.show-menu .hamburguer {
+  right: 20rem;
+}
+.line {
+  width: 100%;
+  height: 0.1rem;
+  padding: 1px;
+  border-radius: 10px;
+  background-color: rgb(0,0,0);
+  /* box-shadow: 0.1rem 0.1rem 3px rgba(0, 0, 0, 788); */
+  transition: transform 0.7s;
+}
+.show-menu #line1 {
+  transform: rotate(45deg) translate(0.4rem, 0.9rem);
+  background-color: rgb(245,245,245);
+  box-shadow: none;
+}
+.show-menu #line2 {
+  opacity: 0;
+  visibility: hidden;
+}
+.show-menu #line3 {
+  transform: rotate(-45deg) translate(0.3rem, -0.9rem);
+  background-color: rgb(245,245,245);
+  box-shadow: none;
+}
+
+.sidebar {
+  width: 18rem;
+  height: 100vh;
+  background-color: white;
+  box-shadow: 10px 5px 15px 10px rgba(0, 0, 0, 0.582);
+  position: fixed;
+  top: 0;
+  right: -20rem;
+  transition: all 0.8s;
+}
+.rigth-menu {
+  right: 0rem;
+}
+.menu-hamburguer {
+  position: absolute;
+  top: 1%;
+  left: 99%;
+  transform: translate(-50%, -50%);
+}
+.menu-item {
+  text-align: center;
+  margin-bottom: 0.5rem;
+}
+.menu-link {
+  font-size: 2rem;
+  color: #111111;
+  transition: color 0.7s;
+}
+.menu-link:hover {
+  color: rgb(0, 255, 255);
+  transition: color 0.7s;
+}
+.logo-responsivo {
+  width: 50%;
+  height: 10%;
+  margin-left: 5rem;
+  margin-bottom: 1rem;
+}
+.responsivo {
+  display: none;
+}
+.img-responsiva {
+  width: 50%;
+  height: 10%;
+  margin-left: 5rem;
+  margin-top: 1.5rem;
+  margin-bottom: 2rem;
+}
+.none {
+  display: none;
+}
+
 @media (max-width: 1150px) {
   .menu-tel {
     display: none;
@@ -160,4 +266,25 @@
   }
 }
 /*menu responsivo*/
-
+@media (max-width: 500px) {
+  .menu {
+    display: none;
+  }
+  .responsivo {
+    display: block;
+  }
+  .body {
+    margin-top: 0px;
+  }
+}
+@media (max-width: 385px) {
+  .img-responsiva {
+    margin-bottom: 1rem;
+  }
+  .hamburguer {
+    top: 2rem;
+  }
+  .show-menu .hamburguer {
+    right: 18rem;
+  }
+}
