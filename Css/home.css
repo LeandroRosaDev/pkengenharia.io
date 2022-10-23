@@ -53,7 +53,7 @@
 }
 .balls {
   position: absolute;
-  bottom: 42%;
+  bottom: 45%;
   max-width: 1920px;
   max-height: 100%;
   display: flex;
@@ -252,7 +252,6 @@
 .boder-20 {
   border-radius: 20px;
 }
-
 @media (max-width: 1000px) {
   .baixo-banner img {
     max-width: 400px;

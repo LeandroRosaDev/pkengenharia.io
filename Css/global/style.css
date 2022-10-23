@@ -1,5 +1,5 @@
 /*Global/resetgeral*/
-@import "./resetgeral.css";
+@import "../global/resetgeral.css";
 
 /*Home*/
 @import "../home.css";
@@ -29,4 +29,4 @@
 @import "../climatizacao.css";
 
 /* Eletrica */
-@import "../eletrica.css";
+@import "./eletrica.css";
