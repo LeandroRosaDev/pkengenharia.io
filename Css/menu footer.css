@@ -54,13 +54,13 @@
   height: 6px;
   margin-left: 5px;
   margin-bottom: 2px;
-  background: url("../imagens/icones/seta-abrir.svg");
+  background: url("../Imagens/icones/seta-abrir.svg");
   transform: rotate(180deg);
   transition: 0.5s;
 }
 
 .detalhe:hover::after {
-  background: url("../imagens/icones/seta-abrir\ azul.svg") no-repeat;
+  background: url("../Imagens/icones/seta-abrir\ azul.svg") no-repeat;
 }
 .nav-secundaria {
   display: none;
@@ -77,13 +77,13 @@
   transition: 0.8s;
 }
 .nav-secundaria li:hover {
-  background-color: #2da8dd;
+  background-color: var(--cor-v4);
   transition: background 0.6s;
 }
 .nav-secundaria-text {
   font-weight: 500;
   font-size: 14px;
-  border-bottom: #2da8dd solid 2px;
+  border-bottom: var(--cor-v4) solid 2px;
   width: 300px;
 }
 .border-none {
@@ -96,7 +96,6 @@
 .nav-secundaria-text a:hover {
   color: #ffffff;
 }
-
 
 /* /////// FOOTER ///////// */
 .footer-bg {
@@ -171,13 +170,13 @@
   height: 0.1rem;
   padding: 1px;
   border-radius: 10px;
-  background-color: rgb(0,0,0);
+  background-color: rgb(0, 0, 0);
   /* box-shadow: 0.1rem 0.1rem 3px rgba(0, 0, 0, 788); */
   transition: transform 0.7s;
 }
 .show-menu #line1 {
   transform: rotate(45deg) translate(0.4rem, 0.9rem);
-  background-color: rgb(245,245,245);
+  background-color: rgb(245, 245, 245);
   box-shadow: none;
 }
 .show-menu #line2 {
@@ -186,7 +185,7 @@
 }
 .show-menu #line3 {
   transform: rotate(-45deg) translate(0.3rem, -0.9rem);
-  background-color: rgb(245,245,245);
+  background-color: rgb(245, 245, 245);
   box-shadow: none;
 }
 

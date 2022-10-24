@@ -93,7 +93,7 @@
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-gap: 40px;
-  margin-top: 20px;
+  margin: 40px 0;
 }
 .baixo-banner img {
   grid-column: 2;
@@ -127,7 +127,7 @@
   background: var(--cor-v1);
   justify-content: center;
   text-align: center;
-  padding-top: 70px;
+  padding-top: 50px;
   padding-bottom: 50px;
 }
 .container-servico {
@@ -139,7 +139,7 @@
   padding: 40px;
 }
 .text-servico a {
-  color: #2da8dd;
+  color: var(--cor-v4);
   letter-spacing: 1.3px;
   font-weight: bold;
 }
@@ -209,7 +209,7 @@
 }
 
 .modelos-text-grid h2::before {
-  content: url("../imagens/icones/check-circle.svg");
+  content: url("../Imagens/icones/check-circle.svg");
   margin-left: -35px;
   float: left;
 }
@@ -218,6 +218,7 @@
 
 .manutencao-home {
   background-color: var(--cor-v1);
+  padding: 40px 0;
 }
 
 /* Parcerias home */
@@ -265,6 +266,9 @@
     width: 250px;
     height: 250px;
   }
+  .text-home {
+    margin: 15px 0;
+  }
 }
 @media (max-width: 900px) {
   .baixo-banner img {
@@ -272,6 +276,7 @@
   }
   .baixo-banner {
     grid-template-columns: repeat(5, 1fr);
+    margin: 20px 0;
   }
   .text-home {
     grid-column: 2/5;
@@ -287,6 +292,7 @@
     display: grid;
     grid-template-rows: 2;
     grid-template-columns: repeat(5, 1fr);
+    padding: 20px;
   }
   .container-servico img {
     grid-row: 2;
@@ -303,7 +309,14 @@
     width: 100px;
   }
   .title-servico {
+    padding-top: 20px;
     padding-bottom: 20px;
+  }
+  .text-servico h2 {
+    margin: 0;
+  }
+  .manutencao-home {
+    padding: 20px 0;
   }
 }
 @media (max-width: 600px) {
@@ -312,8 +325,7 @@
     padding: 50px 50px;
   }
   .container-azul > a {
-    padding: 10px 15px;
-    margin: 20px 50%;
+    margin: 15px auto 0 auto;
   }
   .logos-container-parcerias {
     display: grid;
