@@ -346,9 +346,14 @@
     margin: 0px;
   }
 }
+@media (max-height: 2280px) {
+  .balls{
+    bottom: 80%;
+  }
+}
 @media (max-height: 1080px) {
   .balls{
-    bottom: 48%;
+    bottom: 45%;
   }
 }
 @media (max-height: 800px) {
