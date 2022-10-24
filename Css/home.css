@@ -334,3 +334,25 @@
     margin: 0px;
   }
 }
+@media (max-height: 1080px) {
+  .balls{
+    bottom: 45%;
+  }
+}
+@media (max-height: 800px) {
+  .balls{
+    bottom: 35%;
+  }
+}
+@media (max-height: 700px) {
+  .balls{
+    bottom: 10%;
+  }
+}
+@media (max-height: 500px) {
+  .balls{
+    bottom: 5%;
+  }
+}
+
+
