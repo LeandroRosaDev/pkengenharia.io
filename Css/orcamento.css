@@ -18,9 +18,6 @@
 }
 .texto-banner-orcamento {
   position: absolute;
-  color: var(--cor-v0);
-  font-size: 64px;
-  font-weight: bold;
   text-transform: uppercase;
 }
 
