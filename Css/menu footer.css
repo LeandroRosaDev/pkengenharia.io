@@ -271,6 +271,9 @@
   .body {
     margin-top: 0px;
   }
+  .balls{
+    display: none;
+  }
 }
 @media (max-width: 385px) {
   .img-responsiva {
