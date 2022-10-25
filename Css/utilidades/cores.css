@@ -37,6 +37,12 @@
 .cor-11 {
   color: var(--cor-v11);
 }
+.cor-12 {
+  color: var(--cor-v12);
+}
+.cor-13 {
+  color: var(--cor-v13);
+}
 :root {
   --cor-v0: #ffffff;
   --cor-v1: #eeeeee;
@@ -50,4 +56,6 @@
   --cor-v9: #009cb9;
   --cor-v10: #ffc03c;
   --cor-v11: #fcff48;
+  --cor-v12: #f29f05;
+  --cor-v13: #e19405;
 }

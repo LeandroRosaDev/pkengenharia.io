@@ -1,5 +1,4 @@
-Reset Geral 
-html,
+Reset Geral html,
 body,
 div,
 span,
@@ -87,6 +86,5 @@ li {
   vertical-align: baseline;
   text-decoration: none;
   list-style: none;
-  color: black;
+  color: var(--cor-v1);
 }
-

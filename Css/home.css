@@ -19,7 +19,7 @@
 .image {
   width: 1920px;
   height: 450px;
-  background-color: black;
+  background-color: var(--cor-v2);
 }
 .image img {
   width: 1920px;
@@ -30,7 +30,7 @@
 }
 .btn {
   position: absolute;
-  color: #ffffff;
+  color: var(--cor-v0);
   text-align: center;
   display: flex;
   align-items: center;
@@ -60,18 +60,18 @@
 }
 .balls div {
   transition: all 0.5;
-  border: 3px solid #ffffff;
+  border: 3px solid var(--cor-v0);
   padding: 4px;
   border-radius: 50%;
   margin-right: 15px;
   cursor: pointer;
 }
 .balls div:hover {
-  background: #ffffff;
+  background: var(--cor-v0);
 }
 .imgAtual {
   transition: all 0.5s;
-  background: #ffffff;
+  background: var(--cor-v0);
 }
 
 /* conteudo */
@@ -139,7 +139,7 @@
   padding: 40px;
 }
 .text-servico a {
-  color: var(--cor-v4);
+  color: var(--cor-v12);
   letter-spacing: 1.3px;
   font-weight: bold;
 }
@@ -156,7 +156,7 @@
 /* Paragrafo azul */
 
 .container-azul {
-  background-color: var(--cor-v5);
+  background-color: var(--cor-v12);
   padding: 100px 100px;
   display: flex;
   flex-wrap: wrap;

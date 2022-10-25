@@ -17,9 +17,6 @@
 }
 .texto-banner-orcamento {
   position: absolute;
-  color: #ffffff;
-  font-size: 64px;
-  font-weight: bold;
   text-transform: uppercase;
 }
 
@@ -52,8 +49,8 @@
 .form-orcamento input[type="email"],
 .form-orcamento textarea {
   font: 400 1rem/1.5 "Roboto", sans-serif;
-  background: #f2f3f4;
-  border: 0px solid #e5e5e5;
+  background: var(--cor-v1);
+  border: 0px solid var(--cor-v1);
   border-radius: 20px;
   margin: 3px;
   padding: 10px;
@@ -64,7 +61,7 @@
 .form-orcamento input[type="email"]:focus,
 .form-orcamento textarea:focus {
   outline: none;
-  border: 1px solid #e5e5e5;
+  border: 1px solid var(--cor-v12);
 }
 
 .form-orcamento textarea {
@@ -72,12 +69,12 @@
 }
 
 .form-orcamento ::placeholder {
-  color: #8a8a8a;
+  color: var(--cor-v3);
 }
 
 .whats-orcamento {
   display: flex;
-  color: #606062;
+  color: var(--cor-v3);
   font-family: "Roboto", sans-serif;
   margin-top: -40px;
   margin-bottom: 60px;
