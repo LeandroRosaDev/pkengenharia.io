@@ -18,9 +18,6 @@
   z-index: 1;
 }
 .texto-banner-servicos {
-  color: #ffffff;
-  font-size: 64px;
-  font-weight: bold;
   text-transform: uppercase;
 }
 
@@ -66,7 +63,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   align-content: center;
-  background: #f2f3f4;
+  background: var(--cor-v1);
 }
 
 .descricao-servicos-2 {
