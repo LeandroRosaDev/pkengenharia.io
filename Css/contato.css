@@ -17,7 +17,7 @@
   z-index: 1;
 }
 .texto-banner-contato {
-  color: #ffffff;
+  color: var(--cor-v0);
   font-size: 64px;
   font-weight: bold;
   text-transform: uppercase;
@@ -29,7 +29,7 @@
   display: flex;
   justify-content: center;
   margin-top: 80px;
-  color: #1f2637;
+  color: var(--cor-v6);
   font-family: "Barlow", Sans-serif;
   font-size: 16px;
   line-height: 32px;
@@ -50,8 +50,8 @@
 .form-contato input[type="email"],
 .form-contato textarea {
   font: 400 1rem/1.5 "Roboto", sans-serif;
-  background: #f2f3f4;
-  border: 0px solid #e5e5e5;
+  background: var(--cor-v1);
+  border: 0px solid var(--cor-v1);
   border-radius: 20px;
   margin: 3px;
   padding: 10px;
@@ -62,7 +62,7 @@
 .form-contato input[type="email"]:focus,
 .form-contato textarea:focus {
   outline: none;
-  border: 1px solid #e5e5e5;
+  border: 1px solid var(--cor-v12);
 }
 
 .form-contato textarea {
@@ -70,7 +70,7 @@
 }
 
 .form-contato ::placeholder {
-  color: #8a8a8a;
+  color: var(--cor-v3);
 }
 
 .botao-contato {
@@ -80,10 +80,10 @@
   padding: 15px;
   border: none;
   margin: 10px auto 50px auto;
-  background: var(--cor-v4);
+  background: var(--cor-v12);
   border-radius: 20px;
   text-transform: uppercase;
-  color: #ffffff;
+  color: var(--cor-v0);
   font-weight: bold;
   font-size: 1.125rem;
 }

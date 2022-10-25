@@ -18,7 +18,7 @@
   z-index: 1;
 }
 .texto-banner-sobre {
-  color: #ffffff;
+  color: var(--cor-v0);
   font-size: 64px;
   font-weight: bold;
   text-transform: uppercase;
