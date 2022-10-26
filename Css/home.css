@@ -350,24 +350,22 @@
   }
 }
 @media (max-height: 1080px) {
-  .balls{
+  .balls {
     bottom: 45%;
   }
 }
 @media (max-height: 800px) {
-  .balls{
+  .balls {
     bottom: 35%;
   }
 }
 @media (max-height: 700px) {
-  .balls{
+  .balls {
     bottom: 10%;
   }
 }
 @media (max-height: 500px) {
-  .balls{
+  .balls {
     bottom: 5%;
   }
 }
-
-
