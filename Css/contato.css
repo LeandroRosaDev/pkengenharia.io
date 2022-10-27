@@ -15,10 +15,6 @@
   position: absolute;
   z-index: 1;
 }
-.texto-banner-contato {
-  text-transform: uppercase;
-}
-
 /* Formulario */
 
 .descricao-contato {
@@ -113,7 +109,7 @@
     width: 350px;
     display: grid;
   }
-  .texto-banner-contato {
+  .texto-banner{
     font-size: 32px;
     margin-bottom: 15%;
   }
@@ -123,9 +119,7 @@
 }
 
 @media (max-width: 440px) {
-  .texto-banner-contato {
-    margin-left: 25%;
-  }
+  
   .botao-contato {
     width: 250px;
   }

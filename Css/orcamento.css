@@ -15,11 +15,6 @@
   position: absolute;
   z-index: 1;
 }
-.texto-banner-orcamento {
-  position: absolute;
-  text-transform: uppercase;
-}
-
 /* Formulario */
 .orcamento-detalhe {
   display: flex;
@@ -112,7 +107,7 @@
     width: 400px;
     display: grid;
   }
-  .texto-banner-orcamento {
+  .texto-banner{
     font-size: 32px;
     margin-bottom: 15%;
   }

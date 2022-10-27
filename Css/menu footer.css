@@ -237,10 +237,10 @@
   margin-top: 1.5rem;
   margin-bottom: 2rem;
 }
-.none,
-.none-balls {
+.none, .none-balls {
   display: none;
 }
+
 
 @media (max-width: 1150px) {
   .menu-tel {
@@ -271,7 +271,7 @@
   .body {
     margin-top: 0px;
   }
-  .balls {
+  .balls{
     display: none;
   }
 }

@@ -15,10 +15,6 @@
   position: absolute;
   z-index: 1;
 }
-.texto-banner-solar {
-  text-transform: uppercase;
-}
-
 /* Descrição */
 
 .conteiner-solar {
@@ -53,7 +49,7 @@
   .banner-solar {
     height: 300px;
   }
-  .texto-banner-solar {
+  .texto-banner{
     font-size: 36px;
     margin-bottom: 15%;
   }

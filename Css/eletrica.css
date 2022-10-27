@@ -15,9 +15,7 @@
   position: absolute;
   z-index: 1;
 }
-.texto-banner-eletrica {
-  text-transform: uppercase;
-}
+
 
 /* Descrição */
 
@@ -53,7 +51,7 @@
   .banner-eletrica {
     height: 300px;
   }
-  .texto-banner-eletrica {
+  .texto-banner{
     font-size: 36px;
     margin-bottom: 15%;
   }

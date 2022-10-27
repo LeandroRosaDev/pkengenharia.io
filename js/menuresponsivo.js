@@ -7,3 +7,6 @@ document.querySelector(".hamburguer").addEventListener("click", ()=>
 document.querySelector(".hamburguer").addEventListener("click", ()=>
  document.querySelector(".img-responsiva").classList.toggle("none")
 );
+document.querySelector(".hamburguer").addEventListener("click", ()=>
+ document.querySelector(".texto-banner").classList.toggle("none")
+);

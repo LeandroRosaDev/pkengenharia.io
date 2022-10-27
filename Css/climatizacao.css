@@ -16,7 +16,7 @@
   position: absolute;
   z-index: 1;
 }
-.texto-banner-climatizacao {
+.texto-banner {
   text-transform: uppercase;
 }
 
@@ -125,7 +125,7 @@
   .banner-climatizacao {
     height: 300px;
   }
-  .texto-banner-climatizacao {
+  .texto-banner {
     font-size: 36px;
     margin-bottom: 15%;
   }

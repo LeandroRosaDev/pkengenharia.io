@@ -12,13 +12,14 @@ body {
 .hamburguer {
   width: 2rem;
   height: 2rem;
-  position: fixed;
+  position: absolute;
   z-index: 5;
   right: 2rem;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   cursor: pointer;
+  z-index: 999;
 }
 
 .show-menu .hamburguer {

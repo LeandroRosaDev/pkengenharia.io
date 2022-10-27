@@ -15,9 +15,8 @@
   align-items: center;
   justify-content: center;
   position: absolute;
-  z-index: 1;
 }
-.texto-banner-servicos {
+.texto-banner {
   text-transform: uppercase;
 }
 
@@ -121,7 +120,7 @@
   .banner-servicos {
     height: 300px;
   }
-  .texto-banner-servicos {
+  .texto-banner{
     font-size: 36px;
     margin-bottom: 15%;
   }
@@ -205,5 +204,9 @@
   .descricao-servicos h1,
   .descricao-servicos-2 h1 {
     font-size: 16px;
+  }
+  .banner-servicos {
+    margin-top: 0px;
+    background-color: blue;
   }
 }
