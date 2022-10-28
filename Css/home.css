@@ -103,6 +103,10 @@
   display: flex;
   flex-wrap: wrap;
 }
+.text-home a {
+  max-width: 130px;
+  height: 20px;
+}
 .text-home p {
   line-height: 28px;
   padding: 10px;
@@ -267,7 +271,7 @@
     width: 250px;
     height: 250px;
   }
-  .container-servico-eletrica img{
+  .container-servico-eletrica img {
     width: 250px;
     height: 250px;
   }
@@ -304,13 +308,13 @@
     justify-content: center;
     text-align: center;
   }
-  .container-servico-eletrica{
+  .container-servico-eletrica {
     display: grid;
     grid-template-rows: 2;
     grid-template-columns: repeat(5, 1fr);
     padding: 20px;
   }
-  .container-servico-eletrica img{
+  .container-servico-eletrica img {
     grid-row: 2;
     grid-column: 3;
     justify-content: center;
@@ -356,11 +360,10 @@
     width: 200px;
     height: 200px;
   }
-  .container-servico-eletrica img{
+  .container-servico-eletrica img {
     width: 200px;
     height: 200px;
   }
-  
 }
 @media (max-width: 500px) {
   .parceria-borda img {
