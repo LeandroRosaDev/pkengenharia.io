@@ -1,19 +1,8 @@
 .banner-contato {
   margin-top: 120px;
   background: url(../Imagens/img/banner-contato.jpg) no-repeat;
-  background-size: cover;
-  width: 100%;
+  background-size: 100% 100%;
   height: 450px;
-  z-index: 0;
-}
-.content-banner-contato {
-  height: 450px;
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  position: absolute;
-  z-index: 1;
 }
 /* Formulario */
 
@@ -109,7 +98,7 @@
     width: 350px;
     display: grid;
   }
-  .texto-banner{
+  .texto-banner {
     font-size: 32px;
     margin-bottom: 15%;
   }
@@ -118,8 +107,25 @@
   }
 }
 
+@media (max-width: 800px) {
+  .banner-contato {
+    height: 250px;
+  }
+}
+
+@media (max-width: 600px) {
+  .banner-contato {
+    height: 200px;
+  }
+}
+
+@media (max-width: 450px) {
+  .banner-contato {
+    height: 150px;
+  }
+}
+
 @media (max-width: 440px) {
-  
   .botao-contato {
     width: 250px;
   }

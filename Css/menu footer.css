@@ -170,8 +170,7 @@
   height: 0.1rem;
   padding: 1px;
   border-radius: 10px;
-  background-color: var(--cor-v2);
-  /* box-shadow: 0.1rem 0.1rem 3px rgba(0, 0, 0, 788); */
+  background-color: var(--cor-v12);
   transition: transform 0.7s;
 }
 .show-menu #line1 {
@@ -190,9 +189,9 @@
 }
 
 .sidebar {
-  width: 18rem;
+  width: 20rem;
   height: 100vh;
-  background-color: var(--cor-v0);
+  background-color: var(--cor-v12);
   box-shadow: 10px 5px 15px 10px rgba(0, 0, 0, 0.582);
   position: fixed;
   top: 0;
@@ -211,19 +210,20 @@
 .menu-item {
   text-align: center;
   margin-bottom: 0.5rem;
+  font: 400 2rem/1 "Barlow", san-serif;
 }
 .menu-link {
   font-size: 2rem;
-  color: var(--cor-v2);
+  color: var(--cor-v0);
   transition: color 0.7s;
 }
 .menu-link:hover {
-  color: var(--cor-v4);
+  color: var(--cor-v8);
   transition: color 0.7s;
 }
 .logo-responsivo {
   width: 50%;
-  height: 10%;
+  height: 15%;
   margin-left: 5rem;
   margin-bottom: 1rem;
 }
@@ -237,10 +237,10 @@
   margin-top: 1.5rem;
   margin-bottom: 2rem;
 }
-.none, .none-balls {
+.none,
+.none-balls {
   display: none;
 }
-
 
 @media (max-width: 1150px) {
   .menu-tel {
@@ -271,7 +271,7 @@
   .body {
     margin-top: 0px;
   }
-  .balls{
+  .balls {
     display: none;
   }
 }

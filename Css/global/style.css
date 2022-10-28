@@ -7,9 +7,6 @@
 /*footer/Menu*/
 @import "../menu footer.css";
 
-/*Menu Responsivo*/
-@import "../menuresponsivo.css";
-
 /*Tipografia / Cores*/
 @import "../utilidades/tipografia.css";
 @import "../utilidades/cores.css";

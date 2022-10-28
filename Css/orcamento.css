@@ -1,20 +1,11 @@
 .banner-orcamento {
   margin-top: 120px;
   background: url(../Imagens/img/banner-orcamento.png) no-repeat;
-  background-size: cover;
+  background-size: 100% 100%;
   width: 100%;
   height: 450px;
-  z-index: 0;
 }
-.content-banner-orcamento {
-  height: 450px;
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  position: absolute;
-  z-index: 1;
-}
+
 /* Formulario */
 .orcamento-detalhe {
   display: flex;
@@ -91,9 +82,6 @@
   float: left;
 }
 @media (max-width: 1000px) {
-  .banner-orcamento {
-    height: 300px;
-  }
   .form-orcamento {
     display: grid;
     width: 300px;
@@ -107,12 +95,22 @@
     width: 400px;
     display: grid;
   }
-  .texto-banner{
+  .texto-banner {
     font-size: 32px;
     margin-bottom: 15%;
   }
   .banner-orcamento {
     height: 300px;
+  }
+}
+@media (max-width: 750px) {
+  .banner-orcamento {
+    height: 250px;
+  }
+}
+@media (max-width: 600px) {
+  .banner-orcamento {
+    height: 150px;
   }
 }
 

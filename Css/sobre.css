@@ -2,20 +2,10 @@
 .banner-sobre {
   margin-top: 120px;
   background: url(../Imagens/img/banner-sobre.jpg) no-repeat;
-  background-size: cover;
-  width: 100%;
+  background-size: 100% 100%;
   height: 450px;
-  z-index: 0;
 }
-.content-banner-sobre {
-  height: 450px;
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  position: absolute;
-  z-index: 1;
-}
+
 /*Conteúdo*/
 .conteudo-principal-sobre {
   margin-top: 60px;
@@ -68,6 +58,9 @@ img {
 }
 
 @media (max-width: 1250px) {
+  .banner-sobre {
+    height: 400px;
+  }
   .marcas-sobre img {
     max-width: 1000px;
   }
@@ -83,12 +76,15 @@ img {
   h4 {
     max-width: 800px;
   }
-  .texto-banner{
+  .texto-banner {
     font-size: 36px;
     margin-bottom: 15%;
   }
 }
 @media (max-width: 1100px) {
+  .banner-sobre {
+    height: 300px;
+  }
   .marcas-sobre img {
     max-width: 800px;
   }
@@ -105,6 +101,9 @@ img {
   }
 }
 @media (max-width: 600px) {
+  .banner-sobre {
+    height: 200px;
+  }
   .marcas-sobre img {
     max-width: 350px;
   }
