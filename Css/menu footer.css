@@ -1,8 +1,8 @@
 /* Menu */
 .logo {
-  width: 10%;
+  width: 150px;
   height: 10%;
-  margin: 10px 0;
+  margin: 10px 0; 
 }
 .menu {
   display: flex;
