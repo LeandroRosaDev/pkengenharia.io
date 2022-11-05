@@ -19,6 +19,7 @@
 
 /* Utilidades */
 @import "../utilidades/utilidades.css";
+@import "../utilidades/cookies.css";
 
 /* Orçamento */
 @import "../orcamento.css";
