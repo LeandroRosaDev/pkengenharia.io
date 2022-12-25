@@ -11,7 +11,7 @@
 
 
 <h2>Confira este projeto acessando o link abaixo:</h2>
-<a target="_blank" href="https://github.com/LeandroRosaDev/pkengenharia.io/">Acesse esse Projeto</a>
+<a target="_blank" href="https://leandrorosadev.github.io/pkengenharia.io/">Acesse esse Projeto</a>
 
 <h2> Ou rode este projeto localmente em sua workstation:</h2>
 <h3>Pré-requisitos</h3>
